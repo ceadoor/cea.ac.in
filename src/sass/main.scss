@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "fonts";
+@import "variables";
+@import "navbar";
+@import "campus";
+@import "studies";
+
+body {
+  background: #fff;
+}
+
+section {
+  padding: 60px 0px;
+}
