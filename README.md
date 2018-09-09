@@ -1,6 +1,6 @@
 ## Website for College of Engineering Adoor
 
-[GitHub Page](https://ceadoor.github.io)
+[GitHub Page](https://ceadoor.github.io/cea.ac.in/)
 
 ### Contribute?
 
