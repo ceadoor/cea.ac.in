@@ -2,6 +2,8 @@
 
 [GitHub Page](https://ceadoor.github.io/cea.ac.in/)
 
+[![Build Status](https://travis-ci.org/ceadoor/cea.ac.in.svg?branch=master)](https://travis-ci.org/ceadoor/cea.ac.in)
+
 ### Contribute?
 
 ```
