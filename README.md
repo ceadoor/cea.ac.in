@@ -19,10 +19,10 @@ Create a regular issue.
 # Quick start
 
 Install nodejs and npm
-  
+
 Clone the repo
 
-    git clone https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate.git
+    git clone https://github.com/ceadoor/cea.ac.in
 
 Install All Packages
 
