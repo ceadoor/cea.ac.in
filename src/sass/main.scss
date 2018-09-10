@@ -5,7 +5,7 @@
 @import "navbar";
 @import "campus";
 @import "studies";
-@import "stories";  
+@import "stories";
 @import "future";
 @import "path";
 @import "news";
@@ -15,11 +15,12 @@
 @import "footer";
 
 body {
+  font-family: $font-family-montessarat;
   background: #fff;
 }
 
 section {
-  padding: 100px 0px;
+  padding: 60px 0px;
 }
 
 footer {
