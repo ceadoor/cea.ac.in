@@ -8,11 +8,20 @@
 @import "stories";  
 @import "future";
 @import "path";
+@import "news";
+@import "admission";
+@import "gallery";
+@import "orgs";
+@import "footer";
 
 body {
   background: #fff;
 }
 
 section {
-  padding: 60px 0px;
+  padding: 100px 0px;
+}
+
+footer {
+  padding: 80px 0;
 }
