@@ -1,0 +1,50 @@
+#stories {
+  .m-head {
+    padding-bottom: 50px;
+  }
+  .img-holder {
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 38, 255, 0.3),
+      rgba(0, 38, 255, 0.3)
+    );
+    height: 100%;
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.3;
+      transition: 0.5s ease;
+      background-image: linear-gradient(
+        0deg,
+        rgba(24, 24, 26, 0.39),
+        rgba(53, 52, 52, 0.425)
+      );
+    }
+    .content {
+      position: absolute;
+      width: 200px;
+      margin-left: -100px;
+      left: 50%;
+      bottom: 10%;
+      color: #fff;
+      h6 {
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+        letter-spacing: 0.1em;
+        font-size: 1em;
+      }
+    }
+    &:hover {
+      .overlay {
+        opacity: 1;
+        transition: 1s ease;
+      }
+    }
+  }
+}

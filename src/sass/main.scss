@@ -2,6 +2,7 @@
 
 @import "fonts";
 @import "variables";
+@import "components";
 @import "navbar";
 @import "campus";
 @import "studies";
@@ -20,7 +21,7 @@ body {
 }
 
 section {
-  padding: 60px 0px;
+  padding: 80px 0px;
 }
 
 footer {
