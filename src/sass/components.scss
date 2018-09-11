@@ -1,0 +1,31 @@
+.m-head {
+  font-weight: $font-weight-exbold;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: $color-black;
+}
+.s-head {
+  font-weight: $font-weight-bold;
+  color: $color-black;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+}
+.p-sub {
+  font-size: 0.9em;
+  line-height: 25px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.main-btn {
+  border-radius: 0;
+  border: 1px solid $color-black;
+  font-size: 0.8em;
+  font-weight: $font-weight-bold;
+  padding: 20px 15px;
+  letter-spacing: 0.1em;
+  &:hover {
+    transition-duration: 0.5s;
+    background: $color-blue;
+  }
+}

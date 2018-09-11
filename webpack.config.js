@@ -13,7 +13,7 @@ module.exports = (env, options) => ({
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: [
           options.mode !== "production"
             ? "style-loader"

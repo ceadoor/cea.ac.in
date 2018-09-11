@@ -1,33 +1,17 @@
 #campus {
   padding-top: 0;
+  padding-bottom: 0;
   background: #f6f6f7;
   .campus-holder {
     padding-top: 60px;
+    padding-bottom: 60px;
     padding-right: 40px;
     .head-holder {
       padding-bottom: 30px;
     }
-    .m-head {
-      font-weight: $font-weight-exbold;
-      font-size: 2em;
-      letter-spacing: 0.1em;
-      color: $color-black;
-    }
     .p-sub {
       color: $color-black;
       font-weight: $font-weight-regular;
-    }
-    .fac-holder {
-      .s-head {
-        font-weight: $font-weight-bold;
-        color: $color-black;
-        font-size: 1.1em;
-        letter-spacing: 0.1em;
-      }
-      .p-sub {
-        font-size: 0.9em;
-        line-height: 25px;
-      }
     }
   }
   .f-holder {
