@@ -1,7 +1,7 @@
 #campus {
   padding-top: 0;
   padding-bottom: 0;
-  background: #f6f6f7;
+  background: $color-grey;
   .campus-holder {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -28,15 +28,15 @@
         letter-spacing: 0.05em;
       }
     }
-      .f-sub1 {
-        padding-top:120px; 
-      }
-      .f-sub2 {
-        padding-top: 120px;
-      }
-      .f-sub3 {
-        padding-top: 120px;
-        padding-bottom: 120px;
-      }
+    .f-sub1 {
+      padding-top: 120px;
+    }
+    .f-sub2 {
+      padding-top: 120px;
+    }
+    .f-sub3 {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
   }
 }

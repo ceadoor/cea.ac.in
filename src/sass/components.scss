@@ -17,6 +17,15 @@
 .pb-40 {
   padding-bottom: 40px;
 }
+.link {
+  text-decoration: none;
+  color: $color-blue;
+  font-weight: $font-weight-semibold;
+  font-size: 0.8em;
+  &:hover {
+    text-decoration: none;
+  }
+}
 .main-btn {
   border-radius: 0;
   border: 1px solid $color-black;
