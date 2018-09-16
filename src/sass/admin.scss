@@ -1,0 +1,35 @@
+#admin {
+    padding-top: 50px;
+    padding-bottom: 0;
+    background: $color-grey;
+    ul.breadcrumb li a {
+        color: #00338d; 
+        font-weight: $font-weight-semibold;
+        letter-spacing: 0;
+    }
+    ul.breadcrumb li a:hover  {
+      color: grey;
+      text-decoration: none;
+    }
+    u.breadcrumb li {
+        color: #333;
+    }
+    ul.breadcrumb {
+      background: transparent;
+      padding-left: 0;
+    }
+    .content-head-holder {
+        .content-head {
+            font-weight: $font-weight-exbold;
+            font-size: 3.5em;
+            text-transform: uppercase;
+        }
+        .cl {
+            display: block;
+            width: 80px;
+            height: 4px;
+            margin-bottom: 50px;
+            background: #00338d;
+        }
+    }
+}
