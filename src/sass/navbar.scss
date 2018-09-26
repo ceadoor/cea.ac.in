@@ -1,0 +1,12 @@
+.navbar {
+  .dropdown >{
+    .dropdown-toggle:active {
+        pointer-events: none;
+    }
+  }
+  & :hover >{
+    .dropdown-menu {
+      display: block;
+    }
+  }
+}
