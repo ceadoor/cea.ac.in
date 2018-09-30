@@ -1,0 +1,39 @@
+.carousel-item
+{
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    .item-1
+    {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../assets/bg1.jpeg);
+    }
+    .item-2
+    {   
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../assets/bg1.jpeg);
+    }
+    .item-3
+    {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(../assets/bg1.jpeg);
+    }
+}
+.carousel-control-prev
+{
+    width: 30%;
+    cursor :  url("../assets/left.png"),pointer;
+}
+.carousel-control-next
+{
+    transition: opacity 0.4s ease-out;
+    cursor :  url("../assets/right.png"),pointer;
+    width: 30%;
+}
