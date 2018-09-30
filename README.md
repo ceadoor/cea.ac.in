@@ -57,9 +57,22 @@ Check the browser at http://localhost:8080/ to see the live local version
     ```sass
     @import "filename";
     ```
+## N.B. 
+After modifying 'webpack.config.js' file, make sure you install the currently required modules with
+```
+npm install
+```
+Then start development environment normally with
+```
+npm start
+```
 
+## Ideas?
 
-### Ideas?
+Go through the [milestones](https://github.com/ceadoor/cea.ac.in/milestones) first.
+
+### Found something new to add?
 
 Create a regular issue [here](https://github.com/ceadoor/cea.ac.in/issues/new)
+
 
