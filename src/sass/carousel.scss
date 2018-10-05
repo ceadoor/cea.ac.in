@@ -13,14 +13,14 @@
     .item-2
     {   
         height: 100%;
-        background: url(../assets/bg1.jpeg);
+        background: url(../assets/bg2.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
     }
     .item-3
     {
         height: 100%;
-        background: url(../assets/bg1.jpeg);
+        background: url(../assets/bg3.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -28,11 +28,11 @@
 .carousel-control-prev
 {
     width: 30%;
-    cursor :  url("../assets/left.png"),pointer;
+    cursor :  url("../assets/left-arrow.svg"),pointer;
 }
 .carousel-control-next
 {
     transition: opacity 0.4s ease-out;
-    cursor :  url("../assets/right.png"),pointer;
+    cursor :  url("../assets/right-arrow.svg"),pointer;
     width: 30%;
 }
