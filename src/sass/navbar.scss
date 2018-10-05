@@ -4,6 +4,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background: $color-blue;
+  position: relative;
+  z-index: 2000;
   .nav
   {
     .nav-item
@@ -76,6 +78,10 @@
 }
 .about-nav {
   color: #000 !important;
+  margin-top: 0;
+  padding-top: 70px;
+  padding-bottom: 20px; 
+  background-color: #fff !important;
   .navbar-brand
   {
   color: #000 !important;
