@@ -1,5 +1,6 @@
 #footer 
 {
+  padding-bottom: 10px;
   background: $color-blue;
   .head
   {
@@ -18,20 +19,56 @@
     {
       color: #fff;
       text-decoration: none;
-      font-size: 0.8em;
+      font-size: 0.7em;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 500;
       letter-spacing: 0.1em;
+    }
+    .main-btn
+    {
+      background: transparent;
+      color: #fff; 
+      border: 2px solid #fff;
     }
   }
   .qk-links
   {
-    padding-top: 40px;
+    padding-top: 140px;
     a
     {
+      font-size: 0.8em;
+      font-weight: lighter;
+      letter-spacing: 0.05em;
       color: #fff;
       text-decoration: none;
+      padding-right: 10px;
     }
-    padding-bottom: 40px;
+    .link
+    {
+      padding-left: 10px;
+    }
+    padding-bottom: 20px;
+  }
+  .social
+  {
+    padding-bottom: 20px;
+    .nav-link
+    {
+      padding-left: 0;
+      padding-right: 40px;
+      font-size: 1.5em;
+      color: #fff;
+    }
+  }
+  .copy-text
+  {
+    padding-top: 60px;
+    h6
+    {
+      font-size: 0.9em;
+      color:#fff;
+      font-weight: lighter;
+      opacity: 0.7;
+    }
   }
 }
