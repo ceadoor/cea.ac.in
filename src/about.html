@@ -9,7 +9,30 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="top-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">English</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Malayalam</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul style="float:right;" class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top about-nav">
             <div class="container">
                 <a class="navbar-brand" href="/cea.ac.in">CEAdoor</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
@@ -17,24 +40,66 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto about-navbar">
                         <li class="nav-item">
-                            <a class="nav-link" href="/cea.ac.in">Home</a>
+                            <a class="nav-link active" href="/cea.ac.in">Home</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/cea.ac.in/about.html">About</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/cea.ac.in/about.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">First</a></li>
+                                <li><a class="dropdown-item" href="#">Second</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <h2 class="dropdown-header">B.Tech</h2>
+                                </li>
+                                <li><a class="dropdown-item" href="#">First</a></li>
+                                <li><a class="dropdown-item" href="#">Second</a></li>
+                                <li><a class="dropdown-item" href="#">Third</a></li>
+                                <li><a class="dropdown-item" href="#">Forth</a></li>
+                                <div class="dropdown-divider"></div>
+                                <li>
+                                    <h2 class="dropdown-header">M.Tech</h2>
+                                </li>
+                                <li><a class="dropdown-item" href="#">First</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="/cea.ac.in/about.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Life@CEA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">First</a></li>
+                                <li><a class="dropdown-item" href="#">Second</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News & Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/cea.ac.in/administration.html">Administration</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/cea.ac.in/contact.html">Contact Us</a>
+                            <a class="nav-link" href="/cea.ac.in/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
     <section id="innovation">
       <div class="container">
         <div class="row">
