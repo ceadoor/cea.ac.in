@@ -28,11 +28,11 @@
 .carousel-control-prev
 {
     width: 30%;
-    cursor :  url("../assets/left.png"),pointer;
+    cursor :  url("../assets/left-arrow.svg"),pointer;
 }
 .carousel-control-next
 {
     transition: opacity 0.4s ease-out;
-    cursor :  url("../assets/right.png"),pointer;
+    cursor :  url("../assets/right-arrow.svg"),pointer;
     width: 30%;
 }
