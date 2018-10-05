@@ -64,7 +64,8 @@
   }
   background: #fff;
   transition: 0.5s ease;
-  margin-top: 0px;
+  margin: 0px;
+  padding-top: 10px !important;
   .navbar-nav
   {
     .nav-item
@@ -80,7 +81,7 @@
   color: #000 !important;
   margin-top: 0;
   padding-top: 70px;
-  padding-bottom: 20px; 
+  padding-bottom: 10px; 
   background-color: #fff !important;
   .navbar-brand
   {
