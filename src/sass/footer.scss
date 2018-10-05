@@ -1,3 +1,37 @@
-footer a {
-  color: #fff;
+#footer 
+{
+  background: $color-blue;
+  .head
+  {
+    h2
+    {
+      color: #fff;
+      font-size: 1.6em;
+      letter-spacing: 0.1em;
+      font-weight: bold;
+    }
+  }
+  .link-holder
+  {
+    padding-top: 40px;
+    a
+    {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+    }
+  }
+  .qk-links
+  {
+    padding-top: 40px;
+    a
+    {
+      color: #fff;
+      text-decoration: none;
+    }
+    padding-bottom: 40px;
+  }
 }
