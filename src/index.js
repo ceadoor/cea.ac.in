@@ -12,7 +12,7 @@ $(document).ready(function() {
     autoplay: true,
     autoplayTimeout: 1000,
     autoplayHoverPause: true,
-    nav: true,
+    nav: false,
     responsive: {
       0: {
         items: 1,
