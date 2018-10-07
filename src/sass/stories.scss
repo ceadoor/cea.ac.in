@@ -3,6 +3,11 @@
     padding-bottom: 50px;
   }
   .img-holder {
+    img
+    {
+      transition: 1s ease;
+    }
+    overflow: hidden;
     background-image: linear-gradient(
       0deg,
       rgba(0, 38, 255, 0.3),
@@ -22,8 +27,8 @@
       transition: 0.5s ease;
       background-image: linear-gradient(
         0deg,
-        rgba(24, 24, 26, 0.39),
-        rgba(53, 52, 52, 0.425)
+        rgba(25, 25, 27, 0.733),
+        rgba(31, 30, 30, 0.719)
       );
     }
     .content {
@@ -33,6 +38,8 @@
       left: 50%;
       bottom: 10%;
       color: #fff;
+      opacity: 1;
+      transition: 1s ease;
       h6 {
         text-transform: uppercase;
         font-weight: $font-weight-bold;
@@ -40,9 +47,48 @@
         font-size: 1em;
       }
     }
+    .content_e
+    {
+      opacity: 0;
+      position: absolute;
+      width: 300px;
+      margin-left: -150px;
+      left: 50%;
+      bottom: 50%;
+      color: #fff;
+      transition: 1s ease;
+      p
+      {
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+      }
+      h6
+      {
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+      }
+    }
     &:hover {
+      img
+      {
+        transform: scale(1.2);
+        transition: 1s ease;
+      }
       .overlay {
         opacity: 1;
+        transition: 1s ease;
+      }
+      .content_e
+      {
+        opacity: 1;
+      }
+      .content
+      {
+        opacity: 0;
         transition: 1s ease;
       }
     }
