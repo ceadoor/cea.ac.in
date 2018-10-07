@@ -1,3 +1,36 @@
 #studies-01 {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #f6f6f7;
+    height: 100%;
+    color: #fff;
+    .content-head h2 {        
+        font-weight: 800;
+        font-size: 3em; 
+        padding-top: 3em;
+    }
+    .content-item h4 {
+        font-style: italic;
+    }
+    .tree {
+        ul.breadcrumb {
+            background: transparent;
+            padding-left: 0;
+            padding-top: 220px;
+            li {
+                color: #fff;
+                a {
+                  color: #fff;
+                  font-weight: $font-weight-semibold;
+                  letter-spacing: 0;
+                }
+                & :hover {
+                  text-decoration: underline;
+                }
+            }
+        }
+    }
 }

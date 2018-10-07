@@ -2,21 +2,23 @@
     padding-top: 80px;
     padding-bottom: 0;
     background: $color-grey;
-    ul.breadcrumb li a {
-        color: #00338d; 
-        font-weight: $font-weight-semibold;
-        letter-spacing: 0;
-    }
-    ul.breadcrumb li a:hover  {
-      color: grey;
-      text-decoration: none;
-    }
-    ul.breadcrumb li {
-        color: #333;
-    }
-    ul.breadcrumb {
-      background: transparent;
-      padding-left: 0;
+    .tree {
+        ul.breadcrumb {
+          background: transparent;
+          padding-left: 0;
+          li {
+            color: #333;
+            a {
+              color: #00338d; 
+              font-weight: $font-weight-semibold;
+              letter-spacing: 0;
+            }
+            & :hover {
+              color: grey;
+              text-decoration: none;
+            } 
+          }
+        }
     }
     .content-holder {
         padding-top: 20px;
