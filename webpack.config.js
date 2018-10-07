@@ -57,7 +57,7 @@ module.exports = (env, options) => ({
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: "css/[name].[contenthash].css"
+      filename: "css/[name].[contenthash].css",
     }),
     new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
@@ -97,6 +97,6 @@ module.exports = (env, options) => ({
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: ""
+    publicPath: options.mode === "production" ?'https://ceadoor.github.io/cea.ac.in/':'http://localhost:8080/'
   }
 });
