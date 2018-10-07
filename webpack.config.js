@@ -63,27 +63,27 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
       template: "src/index.html",
       inject: "body",
-      filename: "index"
+      filename: "index.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/about.html",
       inject: "body",
-      filename: "about"
+      filename: "about.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
-      filename: "administration"
+      filename: "administration.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/contact.html",
       inject: "body",
-      filename: "contact"
+      filename: "contact.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
-      filename: "studies/btech-computer-science-engg"
+      filename: "studies/btech-computer-science-engg.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
