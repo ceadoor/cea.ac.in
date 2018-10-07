@@ -15,21 +15,15 @@
     .content-item h4 {
         font-style: italic;
     }
-    .tree {
-        ul.breadcrumb {
-            background: transparent;
-            padding-left: 0;
-            padding-top: 220px;
-            li {
+    .breadcrumb {
+        padding-top: 220px;
+        li {
+            color: #fff;
+            a {
                 color: #fff;
-                a {
-                  color: #fff;
-                  font-weight: $font-weight-semibold;
-                  letter-spacing: 0;
-                }
-                & :hover {
-                  text-decoration: underline;
-                }
+            }
+            & :hover {
+                text-decoration: underline;
             }
         }
     }

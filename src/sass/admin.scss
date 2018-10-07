@@ -2,24 +2,6 @@
     padding-top: 80px;
     padding-bottom: 0;
     background: $color-grey;
-    .tree {
-        ul.breadcrumb {
-          background: transparent;
-          padding-left: 0;
-          li {
-            color: #333;
-            a {
-              color: #00338d; 
-              font-weight: $font-weight-semibold;
-              letter-spacing: 0;
-            }
-            & :hover {
-              color: grey;
-              text-decoration: none;
-            } 
-          }
-        }
-    }
     .content-head-holder {
         .content-head {
             font-weight: $font-weight-exbold;
