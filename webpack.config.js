@@ -83,7 +83,7 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
-      filename: "btech-computer-science-engg.html"
+      filename: "studies/btech-computer-science-engg.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
@@ -97,6 +97,6 @@ module.exports = (env, options) => ({
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: ""
+    publicPath: "/"
   }
 });
