@@ -63,27 +63,27 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
       template: "src/index.html",
       inject: "body",
-      filename: "index.html"
+      filename: "index"
     }),
     new HtmlWebpackPlugin({
       template: "src/about.html",
       inject: "body",
-      filename: "about.html"
+      filename: "about"
     }),
     new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
-      filename: "administration.html"
+      filename: "administration"
     }),
     new HtmlWebpackPlugin({
       template: "src/contact.html",
       inject: "body",
-      filename: "contact.html"
+      filename: "contact"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
-      filename: "studies/btech-computer-science-engg.html"
+      filename: "studies/btech-computer-science-engg"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
@@ -97,6 +97,6 @@ module.exports = (env, options) => ({
   output: {
     filename: "[name].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/"
+    publicPath: ""
   }
 });
