@@ -21,7 +21,7 @@
       text-decoration: none;
       font-size: 0.7em;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: 700;
       letter-spacing: 0.1em;
     }
     .main-btn
@@ -29,6 +29,30 @@
       background: transparent;
       color: #fff; 
       border: 2px solid #fff;
+      width: 100%;
+    }
+    & :hover {
+      border-color: #809fb7;
+      color: #809fb7;
+    }
+    .branch-holder {
+      .content-main {
+        padding-bottom: 8px;
+      }
+      & :hover {
+        color: #809fb7;
+        span {
+          padding-left: 13px;
+          transition: all 0.2s;
+        }
+      }
+      span {
+        padding-left: 8px;
+        font-size: 13px;
+      }
+      .last {
+        padding-bottom: 30px;
+      }
     }
   }
   .qk-links
