@@ -5,7 +5,23 @@ import 'animate.css/animate.css'
 import "./sass/main.scss";
 
 $(document).ready(function() {
-  $(".student_carousel").owlCarousel();
+  $(".student_carousel").owlCarousel({
+    responsive: {
+      0: {
+        items: 1,
+        nav: true
+      },
+      600: {
+        items: 2,
+        nav: false
+      },
+      1000: {
+        items: 3,
+        nav: true,
+        loop: false
+      }
+    }
+  });
   $(".news_carousel").owlCarousel({
     loop: true,
     margin: 10,
