@@ -1,38 +1,46 @@
-.carousel-item
+#maincarousel
 {
-    background-color: #000;
     height: 100vh;
-    width: 100%;
-    .item-1
+    overflow: hidden;
+    .carousel-control-prev
     {
-        height: 100%;
-        background: url(../assets/bg1.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 30%;
+        cursor :  url("../assets/left-arrow.svg"),pointer;
     }
-    .item-2
-    {   
-        height: 100%;
-        background: url(../assets/bg2.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .item-3
+    .carousel-control-next
     {
-        height: 100%;
-        background: url(../assets/bg3.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
+        cursor :  url("../assets/right-arrow.svg"),pointer;
+        width: 30%;
     }
-}
-.carousel-control-prev
-{
-    width: 30%;
-    cursor :  url("../assets/left-arrow.svg"),pointer;
-}
-.carousel-control-next
-{
-    transition: opacity 0.4s ease-out;
-    cursor :  url("../assets/right-arrow.svg"),pointer;
-    width: 30%;
+    .carousel-caption
+    {
+        bottom: 40%;
+        left: 5%;
+        text-align: left;
+        h3
+        {
+            font-size: 5em;
+            text-transform: uppercase;
+            font-weight: bolder;
+            letter-spacing: 0.1em;
+        }
+        .carousel-sub
+        {
+            max-width: 500px;
+            p
+            {
+                font-style: italic;
+                font-weight: lighter;
+                font-size: 1.0em;
+                letter-spacing: 0;
+            }
+        }
+        @media screen and (max-width: $screen-xs-max)
+        {
+            h3
+            {
+                font-size: 2em;
+            }
+        }
+    }
 }
