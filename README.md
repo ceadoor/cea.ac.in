@@ -19,74 +19,29 @@
 
 <br />
 
-Welcome! This repository houses all of the assets required to build the website for College of Engineering Adoor. We're very pleased that you want to contribute!
+Welcome! This repository houses all of the assets required to build the website for College of Engineering Adoor. <br />We're very pleased that you want to contribute!
+
+##### Follow us
+
+| 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://ceadoor.slack.com/) | 🚀 [Blog](#) | 🐥 [Twitter](#) |
+| -------------------------------- | ------------------------------------- | ----------------------------------- | --------------------------------------------- |
+
+---
 
 ## To get started
 
-### You must have [Node.js LTS](https://nodejs.org/en/download/) installed in your machine to use [Webpack](https://webpack.js.org/)
+### [Webpack](https://webpack.js.org/) requires [Node.js LTS](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) as package manager for the development.
 
-### Quick Start
+## Contributing
 
-#### 1. Fork this repository
-#### 2. Clone the fork to your local machine
-```
-git clone https://github.com/username/cea.ac.in .
-```
-#### 3. Switch to the directory and Install All Packages
-```
-npm install
-```
-#### 4. Start Development Environment
-```
-npm start
-```
-Check the browser at http://localhost:8080/ to see the live local version
+Thank you for your interest in supporting us in development. Here are some of the many ways to contribute.
 
-# Loading
+* Check out our [contributing guide](CONTRIBUTING.md)
+* Ideas? Go through the [milestones](https://github.com/ceadoor/cea.ac.in/milestones) first.
+* Issues? Create a regular issue [here](https://github.com/ceadoor/cea.ac.in/issues/new)
 
-- Add your html files in the `src` directory (By default `index.html` is added to your `src` directory, feel free to make changes)
-
-  - Make sure you add it in your `webpack.config.js` (Replace `yourfile` with your `filename`)
-
-    ```javascript
-    plugins: [
-        ...
-        new HtmlWebpackPlugin({
-            template: 'src/yourfile.html',
-            inject: 'body',
-            filename: 'yourfile.html'
-        }),
-        ...
-    ],
-    ```
-
-- Add images to your `src/assets` folder
-- Add sass files to `src/scss` folder
-
-  - Make sure you import the scss file in `main.scss`
-
-    ```sass
-    @import "filename";
-    ```
-## Note 
-After modifying 'webpack.config.js' file, make sure you install the currently required modules with
-```
-npm install
-```
-Then start development environment normally with
-```
-npm start
-```
-
-## Ideas?
-
-Go through the [milestones](https://github.com/ceadoor/cea.ac.in/milestones) first.
-
-### Found something new to add?
-
-Create a regular issue [here](https://github.com/ceadoor/cea.ac.in/issues/new)
-
+For starters, there are some open issues with the [#for-new-contributors](https://github.com/ceadoor/cea.ac.in/issues?q=is%3Aissue+is%3Aopen+label%3Afor-new-contributors) tag which are ideal for starting to contribute. They are all relatively easy to get started with.
 
 ## License
 
-MIT
+Copyright © 2018 [CEADOOR](https://github.com/ceadoor) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/ceadoor/cea.ac.in/blob/master/LICENSE)
