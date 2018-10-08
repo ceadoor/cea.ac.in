@@ -1,6 +1,7 @@
 import "bootstrap";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel";
+import 'animate.css/animate.css'
 import "./sass/main.scss";
 
 $(document).ready(function() {

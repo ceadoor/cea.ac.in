@@ -31,6 +31,7 @@
     "webpack-dev-server": "^3.1.7"
   },
   "dependencies": {
+    "animate.css": "^3.7.0",
     "bootstrap": "^4.1.3",
     "jquery": "^3.3.1",
     "owl.carousel": "^2.3.4",
