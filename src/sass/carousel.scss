@@ -2,6 +2,27 @@
 {
     height: 100vh;
     overflow: hidden;
+    .bg1
+    {
+        height: 100vh;
+        background: url(../assets/bg1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg2
+    {
+        height: 100vh;
+        background: url(../assets/bg2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg3
+    {
+        height: 100vh;
+        background: url(../assets/bg3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .carousel-control-prev
     {
         width: 30%;
@@ -14,7 +35,7 @@
     }
     .carousel-caption
     {
-        bottom: 40%;
+        bottom: 25%;
         left: 5%;
         text-align: left;
         h3
