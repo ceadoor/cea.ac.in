@@ -2,6 +2,15 @@
 {
     height: 100vh;
     overflow: hidden;
+
+    .carousel-inner
+    {
+        background: #000;
+        img 
+        {
+            opacity: .4;
+        }
+    }
     .bg1
     {
         height: 100vh;
@@ -36,7 +45,7 @@
     .carousel-caption
     {
         bottom: 25%;
-        left: 5%;
+        left: 10%;
         text-align: left;
         h3
         {
@@ -62,6 +71,14 @@
             {
                 font-size: 2em;
             }
+        }
+        @media screen and (max-width: $screen-lg-max)
+        {
+            left: 15%;
+        }
+        @media screen and (max-width: $screen-xlg-max) and (min-width:$screen-xlg-min)
+        {
+            left: 30%;
         }
     }
 }
