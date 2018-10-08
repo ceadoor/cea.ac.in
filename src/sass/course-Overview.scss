@@ -1,24 +1,3 @@
 #course-Overview {
-    padding: 0;
-    .sub-nav {
-        margin-top: 0 !important;
-        background: transparent;
-        .collapse {
-            .navbar-nav {
-                .nav-item {
-                    .nav-link {
-                        color: #000;
-                        text-transform: uppercase;
-                        padding: 15px 70px;
-                        margin-left: 40px;
-                        margin-right: 40px;
-                    }
-                    
-                    & :hover, .test {
-                        border-bottom: 2px solid #7aa52b;
-                    }
-                }
-            }
-        }
-    }
+
 }

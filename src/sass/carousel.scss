@@ -6,32 +6,32 @@
     .carousel-inner
     {
         background: #000;
-        img 
+        .bg1
         {
-            opacity: .4;
+            height: 100vh;
+            background: url(../assets/bg1.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: .5;
+        }
+        .bg2
+        {
+            height: 100vh;
+            background: url(../assets/bg2.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: .5;
+        }
+        .bg3
+        {
+            height: 100vh;
+            background: url(../assets/bg3.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: .5;
         }
     }
-    .bg1
-    {
-        height: 100vh;
-        background: url(../assets/bg1.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .bg2
-    {
-        height: 100vh;
-        background: url(../assets/bg2.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .bg3
-    {
-        height: 100vh;
-        background: url(../assets/bg3.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    
     .carousel-control-prev
     {
         width: 30%;
