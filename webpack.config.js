@@ -86,6 +86,11 @@ module.exports = (env, options) => ({
       filename: "contact.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/news.html",
+      inject: "body",
+      filename: "news.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/gallery.html",
       inject: "body",
       filename: "gallery.html"
