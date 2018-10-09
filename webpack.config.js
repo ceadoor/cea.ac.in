@@ -71,6 +71,11 @@ module.exports = (env, options) => ({
       filename: "about.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/about/our-history.html",
+      inject: "body",
+      filename: "about/our-history.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
       filename: "administration.html"
@@ -135,6 +140,11 @@ module.exports = (env, options) => ({
         inject: "body",
         filename: "faculty.html"
       }),
+    new HtmlWebpackPlugin({
+        template: "src/about/our-commitment.html",
+        inject: "body",
+        filename: "our-commitment.html"
+    }),
     new HtmlWebpackPlugin({
       template: "src/campus-life/clubs-at-cea.html",
       inject: "body",
