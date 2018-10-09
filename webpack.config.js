@@ -66,16 +66,6 @@ module.exports = (env, options) => ({
       filename: "index.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/about.html",
-      inject: "body",
-      filename: "about.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "src/about/our-history.html",
-      inject: "body",
-      filename: "about/our-history.html"
-    }),
-    new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
       filename: "administration.html"
@@ -84,11 +74,6 @@ module.exports = (env, options) => ({
       template: "src/contact.html",
       inject: "body",
       filename: "contact.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "src/news.html",
-      inject: "body",
-      filename: "news.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/gallery.html",
@@ -101,19 +86,39 @@ module.exports = (env, options) => ({
       filename: "admissions.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/resources.html",
+      inject: "body",
+      filename: "resources.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/news-and-events.html",
+      inject: "body",
+      filename: "news-and-events.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/news-and-events/news.html",
+      inject: "body",
+      filename: "news-and-events/news.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/academic-programs.html",
+      inject: "body",
+      filename: "studies/academic-programs.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
       filename: "studies/btech-computer-science-engg.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/studies/btech-mechanical-engg.html",
-      inject: "body",
-      filename: "studies/btech-mechanical-engg.html"
-    }),
-    new HtmlWebpackPlugin({
       template: "src/studies/btech-electrical-and-electronics-engg.html",
       inject: "body",
       filename: "studies/btech-electrical-and-electronics-engg.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/btech-mechanical-engg.html",
+      inject: "body",
+      filename: "studies/btech-mechanical-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-electronics-and-communication-engg.html",
@@ -126,9 +131,24 @@ module.exports = (env, options) => ({
       filename: "studies/mtech-thermal-engg.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/studies/academic-programs.html",
+      template: "src/about.html",
       inject: "body",
-      filename: "studies/academic-programs.html"
+      filename: "about.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/about/faculty.html",
+      inject: "body",
+      filename: "about/faculty.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/about/our-history.html",
+      inject: "body",
+      filename: "about/our-history.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/about/our-commitment.html",
+      inject: "body",
+      filename: "about/our-commitment.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/cea-experience.html",
@@ -146,29 +166,9 @@ module.exports = (env, options) => ({
       filename: "cea-experience/professional-experience.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/news-and-events.html",
-      inject: "body",
-      filename: "news-and-events.html"
-    }),
-    new HtmlWebpackPlugin({
-        template: "src/about/faculty.html",
-        inject: "body",
-        filename: "about/faculty.html"
-    }),
-    new HtmlWebpackPlugin({
-        template: "src/about/our-commitment.html",
-        inject: "body",
-        filename: "our-commitment.html"
-    }),
-    new HtmlWebpackPlugin({
       template: "src/campus-life/clubs-at-cea.html",
       inject: "body",
       filename: "campus-life/clubs-at-cea.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "src/resources.html",
-      inject: "body",
-      filename: "resources.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
