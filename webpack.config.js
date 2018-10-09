@@ -180,6 +180,11 @@ module.exports = (env, options) => ({
       inject: "body",
       filename: "studies/universities/ktu.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/departments.html",
+      inject: "body",
+      filename: "studies/departments.html"
+    }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
