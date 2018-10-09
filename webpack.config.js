@@ -121,6 +121,11 @@ module.exports = (env, options) => ({
       filename: "studies/academic-programs.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/cea-experience.html",
+      inject: "body",
+      filename: "cea-experience.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/cea-experience/stories.html",
       inject: "body",
       filename: "cea-experience/stories.html"
