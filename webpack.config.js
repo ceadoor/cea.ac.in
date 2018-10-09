@@ -62,7 +62,6 @@ module.exports = (env, options) => ({
     }),
     new CleanWebpackPlugin(["dist"]),
     ...globSync('src/**/*.html').map((fileName) => {
-      console.log(fileName);
       return new HtmlWebpackPlugin({
         template: fileName,
         inject: "body",
