@@ -63,62 +63,62 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
       template: "src/index.html",
       inject: "body",
-      filename: "index"
+      filename: "index.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/about.html",
       inject: "body",
-      filename: "about"
+      filename: "about.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
-      filename: "administration"
+      filename: "administration.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/contact.html",
       inject: "body",
-      filename: "contact"
+      filename: "contact.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
-      filename: "studies/btech-computer-science-engg"
+      filename: "studies/btech-computer-science-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-mechanical-engg.html",
       inject: "body",
-      filename: "studies/btech-mechanical-engg"
+      filename: "studies/btech-mechanical-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-electrical-and-electronics-engg.html",
       inject: "body",
-      filename: "studies/btech-electrical-and-electronics-engg"
+      filename: "studies/btech-electrical-and-electronics-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-electronics-and-communication-engg.html",
       inject: "body",
-      filename: "studies/btech-electronics-and-communication-engg"
+      filename: "studies/btech-electronics-and-communication-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/mtech-thermal-engg.html",
       inject: "body",
-      filename: "studies/mtech-thermal-engg"
+      filename: "studies/mtech-thermal-engg.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/academic-programs.html",
       inject: "body",
-      filename: "studies/academic-programs"
+      filename: "studies/academic-programs.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/cea-experience/stories.html",
       inject: "body",
-      filename: "cea-experience/stories"
+      filename: "cea-experience/stories.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/news-and-events.html",
       inject: "body",
-      filename: "news-and-events"
+      filename: "news-and-events.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
