@@ -120,6 +120,11 @@ module.exports = (env, options) => ({
       inject: "body",
       filename: "news-and-events.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/campus-life/clubs-at-cea.html",
+      inject: "body",
+      filename: "campus-life/clubs-at-cea.html"
+    }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
@@ -127,7 +132,7 @@ module.exports = (env, options) => ({
       Popper: ["popper.js", "default"],
       Util: "exports-loader?Util!bootstrap/js/dist/util",
       Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
-    })
+    }),
   ],
   output: {
     filename: "[name].js",
