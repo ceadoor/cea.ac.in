@@ -71,6 +71,11 @@ module.exports = (env, options) => ({
       filename: "about.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/about/our-history.html",
+      inject: "body",
+      filename: "about/our-history.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/administration.html",
       inject: "body",
       filename: "administration.html"
@@ -79,6 +84,11 @@ module.exports = (env, options) => ({
       template: "src/contact.html",
       inject: "body",
       filename: "contact.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/gallery.html",
+      inject: "body",
+      filename: "gallery.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
@@ -119,6 +129,16 @@ module.exports = (env, options) => ({
       template: "src/news-and-events.html",
       inject: "body",
       filename: "news-and-events.html"
+    }),
+    new HtmlWebpackPlugin({
+        template: "src/about/faculty.html",
+        inject: "body",
+        filename: "faculty.html"
+      }),
+    new HtmlWebpackPlugin({
+        template: "src/about/our-commitment.html",
+        inject: "body",
+        filename: "our-commitment.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/campus-life/clubs-at-cea.html",
