@@ -173,7 +173,7 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
       template: "src/campus-life/clubs-at-cea/pulse-cea.html",
       inject: "body",
-      filename: "src/campus-life/clubs-at-cea/pulse-cea.html"
+      filename: "campus-life/clubs-at-cea/pulse-cea.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg/course-plan.html",
