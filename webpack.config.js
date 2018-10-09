@@ -91,6 +91,11 @@ module.exports = (env, options) => ({
       filename: "studies/btech-mechanical-engg.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/studies/btech-electrical-and-electronics-engg.html",
+      inject: "body",
+      filename: "studies/btech-electrical-and-electronics-engg.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/studies/btech-electronics-and-communication-engg.html",
       inject: "body",
       filename: "studies/btech-electronics-and-communication-engg.html"
