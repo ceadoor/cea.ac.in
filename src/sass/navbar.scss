@@ -1,5 +1,7 @@
 .top-nav
 {
+  position: relative;
+  z-index: 9999;
   margin-top: 0;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -79,7 +81,7 @@
   color: #000 !important;
   margin-top: 0;
   padding-top: 70px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
   background-color: #fff !important;
   .navbar-brand
   {
@@ -87,7 +89,7 @@
   }
   .other-nav {
     .nav-link {
-      color: #000 !important; 
+      color: #000 !important;
     }
   }
 }

@@ -86,16 +86,30 @@ module.exports = (env, options) => ({
       filename: "studies/btech-computer-science-engg.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/studies/btech-mechanical-engg.html",
+      inject: "body",
+      filename: "studies/btech-mechanical-engg.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/studies/btech-electronics-and-communication-engg.html",
       inject: "body",
       filename: "studies/btech-electronics-and-communication-engg.html"
     }),
-      new HtmlWebpackPlugin({
+    new HtmlWebpackPlugin({
       template: "src/studies/mtech-thermal-engg.html",
       inject: "body",
       filename: "studies/mtech-thermal-engg.html"
     }),
-    
+    new HtmlWebpackPlugin({
+      template: "src/studies/academic-programs.html",
+      inject: "body",
+      filename: "studies/academic-programs.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/cea-experience/stories.html",
+      inject: "body",
+      filename: "cea-experience/stories.html"
+    }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
