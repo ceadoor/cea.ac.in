@@ -18,15 +18,16 @@
 </div>
 
 <br />
-
+<div align="center">
 Welcome! This repository houses all of the assets required to build the website for College of Engineering Adoor. <br />We're very pleased that you want to contribute!
 
 ##### Follow us
 
 | 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://ceadoor.slack.com/) | 🚀 [Blog](#) | 🐥 [Twitter](#) |
-| -------------------------------- | ------------------------------------- | ----------------------------------- | --------------------------------------------- |
 
----
+
+--------
+</div>
 
 ## To get started
 
