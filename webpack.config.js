@@ -136,6 +136,11 @@ module.exports = (env, options) => ({
       filename: "about.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/news-and-events/whats-going-on.html",
+      inject: "body",
+      filename: "news-and-events/whats-going-on.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/about/faculty.html",
       inject: "body",
       filename: "about/faculty.html"
@@ -179,6 +184,11 @@ module.exports = (env, options) => ({
       template: "src/studies/departments.html",
       inject: "body",
       filename: "studies/departments.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/universities/cusat.html",
+      inject: "body",
+      filename: "studies/universities/cusat.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
