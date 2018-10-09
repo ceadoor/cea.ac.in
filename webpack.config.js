@@ -138,8 +138,8 @@ module.exports = (env, options) => ({
     new HtmlWebpackPlugin({
         template: "src/about/faculty.html",
         inject: "body",
-        filename: "faculty.html"
-      }),
+        filename: "about/faculty.html"
+    }),
     new HtmlWebpackPlugin({
         template: "src/about/our-commitment.html",
         inject: "body",
