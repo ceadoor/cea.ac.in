@@ -17,6 +17,10 @@ As contributors you should be respectful and considerate of others - both contri
 
 ---
 
+
+### [Node.js LTS](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) must be installed in your local machine.
+
+
 ## Quick Start
 
 #### 1. Fork this repository
