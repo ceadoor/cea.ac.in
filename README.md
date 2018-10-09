@@ -15,6 +15,9 @@
   <a href="https://www.npmjs.com/get-npm">
     <img src="https://img.shields.io/badge/npm-%3E%3D6.4.1-lightgrey.svg" alt="npm" />
   </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="code style: prettier" />
+  </a>
 </div>
 
 <br />
@@ -23,7 +26,7 @@ Welcome! This repository houses all of the assets required to build the website 
 
 ##### Follow us
 
-| 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://ceadoor.slack.com/) | 🚀 [Blog](#) | 🐥 [Twitter](#) |
+| 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://ceadoor.slack.com/) | 🚀 [Blog](#) | 🐥 [Twitter](#) | 📷 [Instagram](#) |
 
 
 --------
