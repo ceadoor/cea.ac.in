@@ -115,6 +115,11 @@ module.exports = (env, options) => ({
       inject: "body",
       filename: "cea-experience/stories.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/news-and-events.html",
+      inject: "body",
+      filename: "news-and-events.html"
+    }),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
