@@ -101,25 +101,25 @@ module.exports = (env, options) => ({
       filename: "news-and-events/news.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/studies/university.html",
-      inject: "body",
-      filename: "studies/university.html"
+        template: "src/news-and-events/events.html",
+        inject: "body",
+        filename: "news-and-events/events.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/studies/universities/ktu.html",
+      template: "src/studies.html",
       inject: "body",
-      filename: "studies/universities/ktu.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "src/studies/departments.html",
-      inject: "body",
-      filename: "studies/departments.html"
+      filename: "studies.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/academic-programs.html",
       inject: "body",
       filename: "studies/academic-programs.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/departments.html",
+      inject: "body",
+      filename: "studies/departments.html"
+    }),   
     new HtmlWebpackPlugin({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
@@ -150,6 +150,16 @@ module.exports = (env, options) => ({
       inject: "body",
       filename: "studies/mtech-thermal-engg.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/university.html",
+      inject: "body",
+      filename: "studies/university.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/universities/ktu.html",
+      inject: "body",
+      filename: "studies/universities/ktu.html"
+    }),           
     new HtmlWebpackPlugin({
       template: "src/about.html",
       inject: "body",
@@ -191,15 +201,15 @@ module.exports = (env, options) => ({
       filename: "campus-life/clubs-at-cea.html"
     }),
     new HtmlWebpackPlugin({
-      template: "src/campus-life/clubs-at-cea/nss-cea.html",
-      inject: "body",
-      filename: "campus-life/clubs-at-cea/nss-cea.html"
-      }),
-    new HtmlWebpackPlugin({
       template: "src/campus-life/clubs-at-cea/pulse-cea.html",
       inject: "body",
       filename: "campus-life/clubs-at-cea/pulse-cea.html"
     }),
+    new HtmlWebpackPlugin({
+      template: "src/campus-life/clubs-at-cea/nss-cea.html",
+      inject: "body",
+      filename: "campus-life/clubs-at-cea/nss-cea.html"
+    }),    
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
