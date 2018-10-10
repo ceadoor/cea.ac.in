@@ -106,6 +106,11 @@ module.exports = (env, options) => ({
         filename: "news-and-events/events.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/news-and-events/whats-going-on.html",
+      inject: "body",
+      filename: "news-and-events/whats-going-on.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/studies.html",
       inject: "body",
       filename: "studies.html"
@@ -159,7 +164,12 @@ module.exports = (env, options) => ({
       template: "src/studies/universities/ktu.html",
       inject: "body",
       filename: "studies/universities/ktu.html"
-    }),           
+    }),  
+    new HtmlWebpackPlugin({
+      template: "src/studies/universities/cusat.html",
+      inject: "body",
+      filename: "studies/universities/cusat.html"
+    }),         
     new HtmlWebpackPlugin({
       template: "src/about.html",
       inject: "body",
