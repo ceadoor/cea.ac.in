@@ -101,6 +101,21 @@ module.exports = (env, options) => ({
       filename: "news-and-events/news.html"
     }),
     new HtmlWebpackPlugin({
+      template: "src/studies/university.html",
+      inject: "body",
+      filename: "studies/university.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/universities/ktu.html",
+      inject: "body",
+      filename: "studies/universities/ktu.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/departments.html",
+      inject: "body",
+      filename: "studies/departments.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "src/studies/academic-programs.html",
       inject: "body",
       filename: "studies/academic-programs.html"
@@ -109,6 +124,11 @@ module.exports = (env, options) => ({
       template: "src/studies/btech-computer-science-engg.html",
       inject: "body",
       filename: "studies/btech-computer-science-engg.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "src/studies/btech-computer-science-engg/course-plan.html",
+      inject: "body",
+      filename: "studies/btech-computer-science-engg/course-plan.html"
     }),
     new HtmlWebpackPlugin({
       template: "src/studies/btech-electrical-and-electronics-engg.html",
@@ -174,16 +194,11 @@ module.exports = (env, options) => ({
       template: "src/campus-life/clubs-at-cea/nss-cea.html",
       inject: "body",
       filename: "campus-life/clubs-at-cea/nss-cea.html"
-    }),
+      }),
     new HtmlWebpackPlugin({
-      template: "src/studies/btech-computer-science-engg/course-plan.html",
+      template: "src/campus-life/clubs-at-cea/pulse-cea.html",
       inject: "body",
-      filename: "studies/btech-computer-science-engg/course-plan.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "src/studies/departments.html",
-      inject: "body",
-      filename: "studies/departments.html"
+      filename: "campus-life/clubs-at-cea/pulse-cea.html"
     }),
     new webpack.ProvidePlugin({
       $: "jquery",
