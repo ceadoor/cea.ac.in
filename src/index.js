@@ -6,19 +6,23 @@ import "./sass/main.scss";
 
 $(document).ready(function() {
   $(".student_carousel").owlCarousel({
+	loop: true,
+	autoplay: true,
+	autoplayTimeout: 4500,
+	autoplayHoverPause: true,
+	nav: true,
+	dots: false,
+	smartSpeed: 350,
+	navText:['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
     responsive: {
       0: {
-        items: 1,
-        nav: true
+        items: 1
       },
       600: {
-        items: 2,
-        nav: false
+        items: 2
       },
       1000: {
-        items: 3,
-        nav: true,
-        loop: false
+        items: 3
       }
     }
   });
