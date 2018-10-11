@@ -2,11 +2,13 @@
 
 ### Welcome
 
-First off, thank you for considering contributing to this repo.
+*First off, thank you for considering contributing to this repo.*
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
 
-This website is an open source project and we welcome any contributions from our community! There are more ways to contribute that just fixing bugs and writing features - improving the design, submitting bug reports and opening issues are all great contributions and will be welcomed as much as any other.
+This website is an open source project and we welcome any contributions from our community! 
+
+There are more ways to contribute that just fixing bugs and writing features - improving the design, submitting bug reports and opening issues are all great contributions and will be welcomed as much as any other.
 
 #### Ground Rules
 As contributors you should be respectful and considerate of others - both contributors and non-contributors alike. Please refer to the [code of conduct](CODE_OF_CONDUCT.md) for our and your responsibilities to the rest of the community.
@@ -26,7 +28,7 @@ As contributors you should be respectful and considerate of others - both contri
 #### 1. Fork this repository
 #### 2. Clone the fork to your local machine
 ```
-git clone https://github.com/username/cea.ac.in .
+git clone https://github.com/username/cea.ac.in
 ```
 #### 3. Switch to the directory and install all packages
 ```
@@ -53,23 +55,9 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
 
 ---
 
-# Loading
+# Loading Files
 
 - Add your html files in the `src` directory (By default `index.html` is added to your `src` directory, feel free to make changes)
-
-  - Make sure you add it in your `webpack.config.js` (Replace `yourfile` with your `filename`)
-
-    ```javascript
-    plugins: [
-        ...
-        new HtmlWebpackPlugin({
-            template: 'src/yourfile.html',
-            inject: 'body',
-            filename: 'yourfile.html'
-        }),
-        ...
-    ],
-    ```
 
 - Add images to your `src/assets` folder
 - Add sass files to `src/scss` folder
@@ -79,12 +67,10 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
     ```sass
     @import "filename";
     ```
+    Then restart the development environment
+
 ## Note 
-After modifying 'webpack.config.js' file, make sure you install the currently required modules with
-```
-npm install
-```
-Then start development environment normally with
+After adding html files or any other files webpack hasn't already tracked, make sure you reload the development environment normally with
 ```
 npm start
 ```
