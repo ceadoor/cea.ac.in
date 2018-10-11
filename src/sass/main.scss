@@ -6,7 +6,9 @@
 @import "components";
 @import "footer";
 @import "map-holder";
+
 @import "navbar";
+@import "carousel-navbar";
 
 @import "section-01";
 @import "section-02";
@@ -29,6 +31,7 @@
 @import "section-19";
 @import "section-20";
 @import "section-21";
+
 
 body {
   font-family: $font-family-montessarat;

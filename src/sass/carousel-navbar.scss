@@ -1,0 +1,25 @@
+.owl-next, .owl-prev{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: transparent !important;
+	border-radius: 50%;
+	color: #fff !important;
+	font-size: 1.4rem !important;
+	position: absolute;
+	top: 50%;
+	border: 2px solid #fff !important;
+	transition: 0.35s;
+	&:hover{
+		background-color: #fff !important;
+		color: #000 !important;
+	}
+}
+
+.owl-prev{
+	left: 20px;
+}
+
+.owl-next{
+	right: 20px;
+}
