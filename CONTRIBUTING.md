@@ -25,20 +25,40 @@ As contributors you should be respectful and considerate of others - both contri
 
 ## Quick Start
 
-#### 1. Fork this repository
+![image](./.github/instruction.jpg)
+
+#### 1. Fork this repository to your account
 #### 2. Clone the fork to your local machine
 ```
 git clone https://github.com/username/cea.ac.in
 ```
-#### 3. Switch to the directory and install all packages
+#### 3. Switch to the directory 
+```
+cd cea.ac.in/
+```
+#### 4. Switch to ```release``` branch
+```
+git checkout release
+```
+#### 5. Create a new branch, say ```feature/test``` from ```release``` branch
+```
+git checkout -b feature/test release
+```
+#### 4. Install all packages (in Windows, use ```cmd```)
 ```
 npm install
 ```
-#### 4. Start Development Environment
+#### 5. Start Development Environment
 ```
 npm start
 ```
 This will provide you with a web interface available at **`http://localhost:8080/`**
+
+
+## Note: 
+You should never submit a Pull Request directly to main repo's ```master``` branch.
+
+Instead the PR should be made to main repo's ```release``` branch. See the [reason](./blob/master/.github/instruction.jpg?raw=true)
 
 ---
 
