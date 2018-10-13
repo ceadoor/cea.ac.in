@@ -1,3 +1,5 @@
+<p align="center"><a href="http://cea.ac.in" title="ceadoor"><img src="https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/PNG%201080P.png" alt="ceadoor logo" width="300" /></a></p>
+
 <h1 align="center">Website for College of Engineering Adoor</h1>
 
 <p align="center">https://ceadoor.github.io/cea.ac.in/</p>
@@ -49,3 +51,7 @@ For starters, there are some open issues with the [#for-new-contributors](https:
 ## License
 
 Copyright © 2018 [CEADOOR](https://github.com/ceadoor) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/ceadoor/cea.ac.in/blob/master/LICENSE)
+
+## Special Thanks
+
+Thanks to [Sk Ayaz](https://github.com/Ayaz1997) for [Logo](https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/PNG%201080P.png) Redesign
