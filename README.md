@@ -26,7 +26,7 @@ Welcome! This repository houses all of the assets required to build the website 
 
 ##### Follow us
 
-| 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://kutt.it/join-ceadoor) | 🚀 [Blog](#) | 🐥 [Twitter](#) | 📷 [Instagram](#) |
+| 🖥 [Website](https://ceadoor.github.io/cea.ac.in/) | 💬 [Slack](https://kutt.it/join-ceadoor) | 🚀 [Blog](#) | 🐥 [Twitter](#) | 📷 [Instagram](https://www.instagram.com/tracecea?r=nametag) |
 
 
 --------
