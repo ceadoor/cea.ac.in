@@ -14,7 +14,7 @@ There are more ways to contribute that just fixing bugs and writing features - i
 As contributors you should be respectful and considerate of others - both contributors and non-contributors alike. Please refer to the [code of conduct](CODE_OF_CONDUCT.md) for our and your responsibilities to the rest of the community.
 
 ### Your Responsibilities
-* Ensure contributions are unit tested and that all tests pass before submitting any pull-request
+* Ensure changes requested on PR's are done and not left behind.
 * If you do find any issues or think of a feature please [create a Github issue](https://github.com/ceadoor/cea.ac.in/issues/new) for this first. Discuss things transparently and get community feedback.
 
 ---
@@ -25,7 +25,7 @@ As contributors you should be respectful and considerate of others - both contri
 
 ## Quick Start
 
-![image](./.github/instruction.jpg)
+<img src="./.github/instruction.jpg" alt="img" width="500" />
 
 #### 1. Fork this repository to your account
 #### 2. Clone the fork to your local machine
@@ -59,6 +59,8 @@ This will provide you with a web interface available at **`http://localhost:8080
 You should never submit a Pull Request directly to main repo's ```master``` branch.
 
 Instead the PR should be made to main repo's ```release``` branch. See the [reason](./blob/master/.github/instruction.jpg?raw=true)
+
+![Screenshot](https://i.imgur.com/9DMuK5x.png)
 
 ---
 
