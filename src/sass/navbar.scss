@@ -48,9 +48,9 @@
       .nav-link
       {
         text-transform: uppercase;
-        font-size: 0.8em;
-        font-weight: 500;
-        letter-spacing: 0.05em;
+        font-size: 0.7em;
+        font-weight: 800;
+        letter-spacing: 0.1em;
         color: #fff;
       }
     }
@@ -65,7 +65,9 @@
   background: #fff;
   transition: 0.5s ease;
   margin: 0px;
-  padding-top: 10px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0);
   .navbar-nav
   {
     .nav-item

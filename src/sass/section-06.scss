@@ -1,5 +1,94 @@
 #section-06 {
-  .grid {
-    padding: 15px 0;
+  .main-btn {
+    margin-top: 40px;
+    padding: 20px 40px;
+    color: $color-black;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .content
+    {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #fff;
+      font-size: 2em;
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      margin-left: -15px;
+      display: block;
+      opacity: 0;
+      transition: 1s ease;
+    }
+  .grid-1 {
+    padding: 0px 15px;
+    .img-holder
+    {
+      background:#000;
+      overflow: hidden;
+      height: 300px;
+      img
+      {
+        object-fit: cover;
+        height: 100%;
+        transition: 1s ease;
+      }
+      &:hover
+      {
+        img
+        {
+          opacity: 0.8;
+          transform: scale(1.5);
+          transition: 1s ease;
+        }
+        .content
+        {
+          opacity: 1;
+          transition: 1s ease;
+        }
+      }
+    }
+    .col-md-3
+      {
+        padding: 0;
+      }
+  }
+  .grid-2
+  {
+    padding: 0px 15px;
+    .img-holder
+    {
+      background:#000;
+      overflow: hidden;
+      height: 300px;
+      overflow: hidden;
+      transition: 1s ease;
+      img
+      {
+        max-width: 100%;
+        object-fit: cover;
+        transition: 1s ease;
+      }
+      &:hover
+      {
+        img
+        {
+          opacity: 0.8;
+          transform: scale(1.5);
+          transition: 1s ease;
+        }
+        .content
+        {
+          opacity: 1;
+          transition: 1s ease;
+        }
+      }
+    }
+    .col-md-6
+    {
+      padding: 0;
+    } 
   }
 }
