@@ -30,15 +30,9 @@
   }
   margin-top: 80px;
   background: transparent;
-  .dropdown >{
-    .dropdown-toggle:active {
-        pointer-events: none;
-    }
-  }
-  & :hover >{
-    .dropdown-menu {
-      display: block;
-    }
+  .dropdown
+  {
+    position: static !important;
   }
   transition: 0.5s ease;
   .navbar-nav
@@ -52,6 +46,24 @@
         font-weight: 800;
         letter-spacing: 0.1em;
         color: #fff;
+      }
+    }
+  }
+}
+.nav-change
+{
+  .navbar-brand
+  {
+    color:#000;
+  }
+  background: #fff;
+  .navbar-nav
+  {
+    .nav-item
+    {
+      .nav-link
+      {
+        color: #000;
       }
     }
   }

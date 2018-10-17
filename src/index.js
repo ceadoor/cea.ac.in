@@ -55,7 +55,7 @@ $(document).ready(function () {
     margin: 10,
     responsiveClass: true,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     nav:false,
     dots: true,
@@ -85,3 +85,14 @@ $(document).ready(function () {
     }
   });
 });
+
+$( document ).ready( function() {
+  $( '.dropdown' ).on( 'show.bs.dropdown', function() {
+    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideDown( 150 );
+    $('nav').addClass('nav-change');
+  } );
+  $('.dropdown').on( 'hide.bs.dropdown', function(){
+    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideUp( 150 );
+    $('nav').removeClass('nav-change');
+  } );
+} );
