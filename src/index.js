@@ -55,7 +55,7 @@ $(document).ready(function () {
     margin: 10,
     responsiveClass: true,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     nav:false,
     dots: true,
@@ -85,3 +85,13 @@ $(document).ready(function () {
     }
   });
 });
+
+$( document ).ready( function() {
+  $('.dropdown').hover(function() {
+    $(this).find('.dropdown-menu').stop(true, true).slideDown(500);
+    $('nav').addClass('nav-change');
+  }, function() {
+    $(this).find('.dropdown-menu').stop(true, true).slideUp(500);
+    $('nav').removeClass('nav-change');
+  });
+} );
