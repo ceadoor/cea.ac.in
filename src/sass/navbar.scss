@@ -28,11 +28,19 @@
     color: #fff;
     font-weight: bold;
   }
-  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   background: transparent;
   .dropdown
   {
     position: static !important;
+  }
+  .dropdown-menu
+  {
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    margin: 0;
   }
   transition: 0.5s ease;
   .navbar-nav
