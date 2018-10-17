@@ -50,8 +50,8 @@ For starters, there are some open issues with the [#for-new-contributors](https:
 
 ## License
 
-Copyright © 2018 [CEADOOR](https://github.com/ceadoor) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/ceadoor/cea.ac.in/blob/master/LICENSE)
+Copyright © 2018 [CEADOOR](http://cea.ac.in) ALL RIGHTS RESERVED, licensed under [MIT](https://github.com/ceadoor/cea.ac.in/blob/master/LICENSE)
 
 ## Special Thanks
 
-Thanks to [Sk Ayaz](https://github.com/Ayaz1997) for [Logo](https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/PNG%201080P.png) Redesign
+Thanks to [Sk Ayaz](https://github.com/Ayaz1997) for [Logo](https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/PNG%201080P.png) Redesigning

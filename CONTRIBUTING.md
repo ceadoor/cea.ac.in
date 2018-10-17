@@ -36,13 +36,13 @@ git clone https://github.com/username/cea.ac.in
 ```
 cd cea.ac.in/
 ```
-#### 4. Switch to ```release``` branch
+#### 4. See if you're in branch ```release```
 ```
-git checkout release
+git branch
 ```
-#### 5. Create a new branch, say ```feature/test``` from ```release``` branch
+#### 5. Create a new branch, say ```feature/new```
 ```
-git checkout -b feature/test release
+git checkout -b feature/new
 ```
 #### 4. Install all packages (in Windows, use ```cmd```)
 ```
