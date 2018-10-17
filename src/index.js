@@ -87,12 +87,11 @@ $(document).ready(function () {
 });
 
 $( document ).ready( function() {
-  $( '.dropdown' ).on( 'show.bs.dropdown', function() {
-    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideDown( 150 );
+  $('.dropdown').hover(function() {
+    $(this).find('.dropdown-menu').stop(true, true).slideDown(500);
     $('nav').addClass('nav-change');
-  } );
-  $('.dropdown').on( 'hide.bs.dropdown', function(){
-    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideUp( 150 );
+  }, function() {
+    $(this).find('.dropdown-menu').stop(true, true).slideUp(500);
     $('nav').removeClass('nav-change');
-  } );
+  });
 } );
