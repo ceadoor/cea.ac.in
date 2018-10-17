@@ -53,6 +53,12 @@ npm install
 npm start
 ```
 This will provide you with a web interface available at **`http://localhost:8080/`**
+#### 6. Commit, Push, and submit PR
+```
+git add .
+git commit -m "commit-message"
+git push origin branchName
+```
 
 
 ## Note: 
@@ -66,7 +72,7 @@ Instead the PR should be made to main repo's ```release``` branch. See the [reas
 
 # Your First Contribution
 
-If you're not sure where to start issues we've labelled some issues with [#for-new-contributors](https://github.com/ceadoor/cea.ac.in/issues?q=is%3Aissue+is%3Aopen+label%3Afor-new-contributors) so these are a great place to start!
+If you're not sure where to start, we've labelled some issues with [#for-new-contributors](https://github.com/ceadoor/cea.ac.in/issues?q=is%3Aissue+is%3Aopen+label%3Afor-new-contributors) so these are a great place to start!
 
 If you do decide to work on an issue comment saying you intend to pick it up and we'll assign it to you. If you decide it's too much however do tell us and we can try to help out or unassign it so it's free for someone else to pick up.
 
