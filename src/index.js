@@ -88,10 +88,10 @@ $(document).ready(function () {
 
 $( document ).ready( function() {
   $('.navbar-nav').hover(function(){
-    $('.overlay').animate({height:'600px'});
+    $('.overlay-nav').animate({height:'600px'});
   },
   function(){
-    $('.overlay').animate({height:'0px'});
+    $('.overlay-nav').animate({height:'0px'});
   }
   )
   $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
