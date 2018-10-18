@@ -87,11 +87,21 @@ $(document).ready(function () {
 });
 
 $( document ).ready( function() {
-  $('.dropdown').hover(function() {
-    $(this).find('.dropdown-menu').stop(true, true).slideDown(500);
+  $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
+    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideDown( 250 );
     $('nav').addClass('nav-change');
-  }, function() {
-    $(this).find('.dropdown-menu').stop(true, true).slideUp(500);
+  } );
+  $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
+    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).slideUp( 250 );
     $('nav').removeClass('nav-change');
-  });
+  } );
 } );
+// $( document ).ready( function() {
+//   $('.navbar-nav .dropdown').hover(function() {
+//     $(this).find('.dropdown-menu').stop(true, true).slideDown(500);
+//     $('nav').addClass('nav-change');
+//   }, function() {
+//     $(this).find('.dropdown-menu').stop(true, true).slideUp(500);
+//     $('nav').removeClass('nav-change');
+//   });
+// } );
