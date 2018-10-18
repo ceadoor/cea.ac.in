@@ -23,6 +23,7 @@
   }
 }
 .navbar {
+  padding-bottom: 0px !important;
   .navbar-brand
   {
     color: #fff;
@@ -47,6 +48,7 @@
     }
     .dropdown-list
     {
+      transition: 1s ease;
       list-style: none;
       padding-left: 0px;
       .dropdown-item
@@ -70,6 +72,7 @@
   {
     .nav-item
     {
+      height: 100%;
       .nav-link
       {
         text-transform: uppercase;
@@ -77,6 +80,8 @@
         font-weight: 800;
         letter-spacing: 0.1em;
         color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
         border-bottom: 2px solid transparent;
         display: block;
         &:hover
@@ -121,7 +126,6 @@
   transition: 0.5s ease;
   margin: 0px;
   padding-top: 20px !important;
-  padding-bottom: 20px !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0);
   .navbar-nav
   {
@@ -129,6 +133,7 @@
     {
       .nav-link
       {
+        padding-bottom: 20px !important;
         color: #000;
       }
     }
