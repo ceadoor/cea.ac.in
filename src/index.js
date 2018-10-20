@@ -55,7 +55,7 @@ $(document).ready(function () {
     margin: 10,
     responsiveClass: true,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     nav:false,
     dots: true,
@@ -85,3 +85,21 @@ $(document).ready(function () {
     }
   });
 });
+
+$( document ).ready( function() {
+  $('.nav-holder').hover(function(){
+  },
+  function(){
+    $('.overlay').html("")
+    $('nav').removeClass('nav-change');
+    $('.overlay').animate({height: 0});
+  }
+  )
+  $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
+    $('nav').addClass('nav-change');
+    $('.overlay').html($( this ).find('.dropdown-menu').html())
+    $('.overlay').animate({height: $('.overlay').find('.dropdown-content').height() + 200});
+  } );
+  $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
+  } );
+} );
