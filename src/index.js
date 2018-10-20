@@ -4,12 +4,6 @@ import "owl.carousel";
 import 'animate.css/animate.css'
 import "./sass/main.scss";
 
-/* CAROUSELS
-  1. Student
-  2. News
-  3. Organisation
-*/
-
 $(document).ready(function () {
   $(".student_carousel").owlCarousel({
     loop: true,
@@ -82,8 +76,6 @@ $(document).ready(function () {
   });
 });
 
-/* STICKY NAVBAR ON SCROLL */
-
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() > 50) {
@@ -94,23 +86,20 @@ $(document).ready(function () {
   });
 });
 
-/* DROPDOWN NAVBAR */
-
 $( document ).ready( function() {
-  $('.navbar-nav').hover(function(){
-    $('.overlay-nav').animate({height:'600px'});
+  $('.nav-holder').hover(function(){
   },
   function(){
-    $('.overlay-nav').animate({height:'0px'});
+    $('.overlay').html("")
+    $('nav').removeClass('nav-change');
+    $('.overlay').animate({height: 0});
   }
   )
   $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
-    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).fadeIn(1400);
     $('nav').addClass('nav-change');
-    
+    $('.overlay').html($( this ).find('.dropdown-menu').html())
+    $('.overlay').animate({height: $('.overlay').find('.dropdown-content').height() + 200});
   } );
   $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
-    $( this ).find( '.dropdown-menu' ).first().stop( true, true ).fadeOut(220);
-    $('nav').removeClass('nav-change');
   } );
 } );
