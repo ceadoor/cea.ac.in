@@ -90,15 +90,15 @@ $( document ).ready( function() {
   $('.nav-holder').hover(function(){
   },
   function(){
-    $('.overlay').html("")
+    $('#navbar-dropdown-hovered').html("")
     $('nav').removeClass('nav-change');
-    $('.overlay').animate({height: 0});
+    $('#navbar-dropdown-hovered').animate({height: 0});
   }
   )
   $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
     $('nav').addClass('nav-change');
-    $('.overlay').html($( this ).find('.dropdown-menu').html())
-    $('.overlay').animate({height: $('.overlay').find('.dropdown-content').height() + 200});
+    $('#navbar-dropdown-hovered').html($( this ).find('.dropdown-menu').html())
+    $('#navbar-dropdown-hovered').animate({height: $('#navbar-dropdown-hovered').find('.dropdown-content').height() + 200});
   } );
   $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
   } );
