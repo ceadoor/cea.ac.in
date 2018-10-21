@@ -1,0 +1,105 @@
+#course-head {
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #f6f6f7;
+	height: 90vh;
+	color: #fff;
+	.content-head {
+		padding-top: 60px;
+		.m-head {
+			font-weight: 800;
+			letter-spacing: 0;
+			font-size: 3em;
+			color: #fff;
+		}
+	}
+	.content-item {
+		h4 {
+			padding-top: 20px;
+			font-style: italic;
+			font-weight: lighter;
+			font-size: 1.2em;
+			text-align: center;
+		}
+	}
+	@media screen and (max-width: $screen-xs-max) {
+		.content-head {
+			.m-head {
+				font-size: 2em;
+			}
+		}
+		.content-item {
+			h4 {
+				font-size: 1em;
+			}
+		}
+	}
+	.breadcrumbs {
+		padding-top: 200px;
+		.w-breadcrumb {
+			padding: 10px 16px;
+			list-style: none;
+			text-align: center;
+			.w-breadcrumb-item {
+				display: inline;
+				font-size: 0.8em;
+				color: #fff;
+				a {
+					font-weight: lighter;
+					color: #fff;
+					text-decoration: none;
+					transition: 0.5s ease;
+					padding-bottom: 3px;
+					border-bottom: 1.5px solid transparent;
+					&:hover {
+						transition: 0.5s ease;
+						border-bottom: 1.5px solid #fff;
+					}
+				}
+				&::after {
+					padding: 8px;
+					color: #fff;
+					content: ">";
+				}
+			}
+			.active {
+				a {
+					&:hover {
+						cursor: default;
+						border-bottom: 1.5px solid transparent;
+					}
+				}
+				&::after {
+					padding: 8px;
+					color: #fff;
+					content: "";
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $screen-xs-max) {
+		.content-head {
+			.m-head {
+				font-size: 2em;
+			}
+		}
+		.content-item {
+			h4 {
+				font-size: 1em;
+			}
+		}
+		.breadcrumbs {
+			padding-top: 20px;
+		}
+	}
+	@media screen and (max-width: $screen-sm-max) {
+		.breadcrumbs {
+			padding-top: 50px;
+		}
+	}
+}
