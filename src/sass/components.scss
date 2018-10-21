@@ -16,6 +16,10 @@
   font-size: 0.9em;
   line-height: 25px;
 }
+.pb20
+{
+  padding-bottom: 20px;
+}
 .pb-25 {
   padding-bottom: 25px;
 }
@@ -47,21 +51,27 @@
   background: transparent;
   padding-left: 0;
   li {
-    color: #333;
+    color: $color-black;
     a {
-      color: #00338d; 
+      color: $color-blue;
       font-weight: $font-weight-semibold;
       letter-spacing: 0;
-    }
-    & :hover {
-      color: $color-grey;
-      text-decoration: none;
-    }
+      &:hover {
+        color: $color-blue-lighter;
+        text-decoration: none;
+      }
+    }    
   }
 }
-
 .element-d {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #e2e2e2;
+}
+.drop-head {
+  color: $color-black;
+  &:hover {
+    color: $color-blue;
+    text-decoration: none;
+  }
 }
