@@ -1,9 +1,14 @@
 #section-14 {
     background: #F6F6F7;
     padding-top: 60px;
+    padding-bottom: 30px;
+    .course-navs
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 	.nav-tabs {
         border: none;
-        padding-bottom: 60px;
 		.nav-item {
             padding-left: 60px;
             padding-right: 60px;
@@ -33,58 +38,5 @@
                 background: transparent;
             }
 		}
-    }
-    .tab-content
-    {
-        .head-holder
-        {
-            padding-bottom: 50px;
-            .m-head
-            {
-                letter-spacing: 0;
-            }
-        }
-        .content-holder
-        {
-            padding-bottom: 50px;
-            
-            .m-head
-            {
-                font-size: 1em;
-                letter-spacing: 0;
-            }
-            .p-sub
-            {
-                letter-spacing: 0;
-                font-size: 0.9em;
-                font-weight: 400;
-                opacity: 0.8;
-            }
-            li
-            {
-                font-size: 0.8em;
-                font-weight: 400;
-                opacity: 0.8;
-            }
-        }
-        .p-holder
-        {
-            .p-sub
-            {
-                letter-spacing: 0;
-                font-size: 1em;
-                font-weight: 400;
-                opacity: 0.8;
-            }
-        }
-        .det-holder
-        {
-            padding-top: 40px;
-            .m-head
-            {
-                font-size: 1em;
-                letter-spacing: 0;
-            }
-        }
     }
 }
