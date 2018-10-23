@@ -25,8 +25,6 @@ As contributors you should be respectful and considerate of others - both contri
 
 ## Quick Start
 
-<img src="./.github/instruction.jpg" alt="img" width="500" />
-
 #### 1. Fork this repository to your account
 #### 2. Clone the fork to your local machine
 ```
@@ -36,37 +34,25 @@ git clone https://github.com/username/cea.ac.in
 ```
 cd cea.ac.in/
 ```
-#### 4. See if you're in branch ```release```
-```
-git branch
-```
-#### 5. Create a new branch, say ```feature/new```
+#### 4. Create a new branch, say ```feature/new```
 ```
 git checkout -b feature/new
 ```
-#### 4. Install all packages (in Windows, use ```cmd```)
+#### 5. Install all packages (in Windows, use ```cmd```)
 ```
 npm install
 ```
-#### 5. Start Development Environment
+#### 6. Start Development Environment
 ```
 npm start
 ```
 This will provide you with a web interface available at **`http://localhost:8080/`**
-#### 6. Commit, Push, and submit PR
+#### 7. Commit, Push, and submit PR
 ```
 git add .
 git commit -m "commit-message"
 git push origin branchName
 ```
-
-
-## Note: 
-You should never submit a Pull Request directly to main repo's ```master``` branch.
-
-Instead the PR should be made to main repo's ```release``` branch. See the [reason](./blob/master/.github/instruction.jpg?raw=true)
-
-![Screenshot](https://i.imgur.com/9DMuK5x.png)
 
 ---
 
