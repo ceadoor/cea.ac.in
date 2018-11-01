@@ -1,7 +1,47 @@
-#section-15 { 
-    .head-holder {
-        font-size: 2.5em;
-        padding-right: 10px;
+#section-15 {
+    background: #fff;
+    .main-head
+    {
+        .m-head
+        {
+            padding-bottom: 10px;
+        }
+        .p-sub
+        {
+            font-size: 1em;
+        }
     }
-    
+	.exp-list {
+		margin-top: 70px;
+		padding-left: 24%;
+		list-style: none;
+		counter-reset: a;
+		li {
+            position: relative;
+			counter-increment: a;
+			&:before {
+				position: absolute;
+				content: "0" counter(a) ". ";
+				text-align: right;
+				font-size: 5em;
+                font-weight: 800;
+                left: -170px;
+                top: -60px;
+                color: 333333;
+				width: 150px;
+            }
+            .p-sub
+            {
+                font-size: 1em;
+            }
+		}
+		.head-holder {
+			font-size: 2.5em;
+			padding-right: 10px;
+		}
+    }
+    .pb60
+    {
+        padding-bottom: 60px;
+    }
 }

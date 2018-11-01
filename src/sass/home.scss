@@ -413,4 +413,18 @@
       font-size: 0.9em;
     }
   }
+
+  #section-08
+  {
+    .m-head
+    {
+      font-size: 2em;   
+      word-wrap: break-word;
+    }
+    @media screen and (max-width: $screen-xs-max) {
+        .m-head {
+          font-size: 1.5em;
+        }
+    }
+  }
   

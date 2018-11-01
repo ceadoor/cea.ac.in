@@ -1,0 +1,42 @@
+#section-14 {
+    background: #F6F6F7;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    .course-navs
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+	.nav-tabs {
+        border: none;
+		.nav-item {
+            padding-left: 60px;
+            padding-right: 60px;
+			.nav-link {
+				color: #000;
+				text-transform: uppercase;
+				font-weight: 700;
+				letter-spacing: 0.1em;
+                font-size: 0.8em;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 2px solid #b9b9b9cf;
+                transition: .5s ease;
+				&:hover {
+                    transition: .5s ease;
+					border-bottom: 2px solid $color-blue;
+                }
+                &:focus
+                {
+                    transition: .5s ease;
+					border-bottom: 2px solid $color-blue;
+                }
+            }
+            .active
+            {
+                background: transparent;
+            }
+		}
+    }
+}

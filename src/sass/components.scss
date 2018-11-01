@@ -1,3 +1,8 @@
+.h-head {
+  font-weight: $font-weight-exbold;
+  font-size: 3.5em;
+  text-transform: uppercase;
+}
 .m-head {
   font-weight: $font-weight-exbold;
   font-size: 2em;
@@ -15,10 +20,6 @@
 .p-sub {
   font-size: 0.9em;
   line-height: 25px;
-}
-.pb20
-{
-  padding-bottom: 20px;
 }
 .pb-25 {
   padding-bottom: 25px;

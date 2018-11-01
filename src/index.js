@@ -79,7 +79,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(document).scrollTop() > 50) {
-      $('nav').addClass('shrink');
+      $('.home-navbar').addClass('shrink');
       $('#navbar-dropdown-hovered').addClass('shrink-dropdown')
     } else {
       $('nav').removeClass('shrink');
@@ -105,3 +105,16 @@ $( document ).ready( function() {
   $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
   } );
 } );
+
+
+var distance = $('.course-navs').offset().top,
+    $window = $(window); 
+$window.scroll(function() {
+    if ( $window.scrollTop() >= distance ) {
+        $('.course-navs').css('background',"#fff");
+    }
+    else
+    {
+      $('.course-navs').css('background',"transparent");
+    }
+});
