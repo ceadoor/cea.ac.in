@@ -1,0 +1,71 @@
+#course_plan {
+    .head
+    {
+        padding-bottom:30px;
+    }
+	.accordion {
+		color: #000;
+		cursor: pointer;
+        padding: 15px 0px;
+        margin-bottom: 15px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		outline: none;
+        transition: 0.4s;
+        background:transparent;
+        border-bottom: 1px solid #000;
+        &:hover
+        {
+            background-color: transparent;
+        }
+	}
+
+	.active{
+		background-color: transparent;
+	}
+
+	.panel {
+		padding: 0 18px;
+		background-color: transparent;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;
+    }
+    .course-details
+    {
+        background: #fff;
+        padding: 30px;
+        p
+        {
+            font-size: 0.75em;
+        }
+        .head-m
+        {
+            font-style: italic;
+        }
+        .sub-m
+        {
+            font-style: italic;
+        }
+        .head-s
+        {
+            font-weight: bolder;
+        }
+        .head-f
+        {
+            font-weight: bolder;
+        }
+        .bb-1
+        {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+            margin-bottom: 20px;
+        }
+        .bt-1
+        {
+            padding-top: 20px;
+            border-top: 1px solid rgba(0, 0, 0, 0.349);   
+        }
+
+    }
+}
