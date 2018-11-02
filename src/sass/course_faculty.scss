@@ -1,0 +1,38 @@
+#course_faculty {
+	.head {
+		.m-head {
+			font-size: 2em;
+			padding-bottom: 20px;
+		}
+	}
+	.abt-faculty {
+		padding-bottom: 40px;
+	}
+	.faculty-holder {
+		background: #fff;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.faculty {
+			.img-holder {
+				overflow: hidden;
+				img {
+					width: 170px;
+					height: 170px;
+					object-fit: cover;
+					display: block;
+					margin: 0 auto;
+				}
+			}
+			.m-head {
+				padding-top: 15px;
+				padding-bottom: 5px;
+				margin-bottom: 0px;
+				font-size: 1.2em;
+				color: $color-blue;
+			}
+			.p-sub {
+				font-style: italic;
+			}
+		}
+	}
+}
