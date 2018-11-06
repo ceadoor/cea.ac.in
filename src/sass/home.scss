@@ -1,165 +1,177 @@
-#section-01 {
-    padding-top: 0;
-    padding-bottom: 0;
-    background: $color-grey;
-    .campus-holder {
-      padding-top: 60px;
-      padding-bottom: 60px;
-      padding-right: 40px;
-      .head-holder {
-        padding-bottom: 30px;
-      }
-      .p-sub {
-        color: $color-black;
-        font-weight: $font-weight-regular;
-      }
-    }
-    .f-holder {
-      background: $color-blue;
-      color: #fff;
-      .f-sub {
-        h1 {
-          font-weight: $font-weight-exbold;
-          font-size: 4.5em;
-        }
-        h6 {
-          font-weight: $font-weight-light;
-          font-size: 0.8em;
-          letter-spacing: 0.05em;
-        }
-      }
-      .f-sub1 {
-        padding-top: 120px;
-      }
-      .f-sub2 {
-        padding-top: 120px;
-      }
-      .f-sub3 {
-        padding-top: 120px;
-        padding-bottom: 120px;
-      }
-    }
-  }
-
-  #section-02 {
-    .deg-holder {
+#campus {
+  padding-top: 0;
+  padding-bottom: 0;
+  background: $color-grey;
+  .campus-holder {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+    .head-holder {
       padding-bottom: 30px;
-      .cl {
-        display: block;
-        width: 60px;
-        height: 4px;
-        margin-bottom: 12px;
-        background: red;
+    }
+    .p-sub {
+      color: $color-black;
+      font-weight: $font-weight-regular;
+    }
+  }
+  .f-holder {
+    background: $color-blue;
+    color: #fff;
+    .f-sub {
+      h1 {
+        font-weight: $font-weight-exbold;
+        font-size: 4.5em;
       }
-      .s-head {
-        margin-bottom: 10px;
-        a {
-          text-decoration: none;
-          color: $color-black;
-          font-size: 0.7em;
-        }
+      h6 {
+        font-weight: $font-weight-light;
+        font-size: 0.8em;
+        letter-spacing: 0.05em;
+      }
+    }
+    .f-sub1 {
+      padding-top: 120px;
+    }
+    .f-sub2 {
+      padding-top: 120px;
+    }
+    .f-sub3 {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+  }
+}
+
+#studies {
+  .deg-holder {
+    padding-bottom: 30px;
+    .cl {
+      display: block;
+      width: 60px;
+      height: 4px;
+      margin-bottom: 12px;
+      background: red;
+    }
+    .s-head {
+      margin-bottom: 10px;
+      a {
+        text-decoration: none;
+        color: $color-black;
+        font-size: 0.7em;
       }
     }
   }
+}
 
-  #section-03 {
-    .m-head {
-      padding-bottom: 50px;
+#stories {
+  .m-head {
+    padding-bottom: 50px;
+  }
+  .img-holder {
+    img
+    {
+      transition: 1s ease;
     }
-    .img-holder {
-      img
-      {
-        transition: 1s ease;
-      }
-      overflow: hidden;
+    overflow: hidden;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 38, 255, 0.3),
+      rgba(0, 38, 255, 0.3)
+    );
+    height: 100%;
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.3;
+      transition: 0.5s ease;
       background-image: linear-gradient(
         0deg,
-        rgba(0, 38, 255, 0.3),
-        rgba(0, 38, 255, 0.3)
+        rgba(25, 25, 27, 0.733),
+        rgba(31, 30, 30, 0.719)
       );
-      height: 100%;
-      position: relative;
-      .overlay {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0.3;
-        transition: 0.5s ease;
-        background-image: linear-gradient(
-          0deg,
-          rgba(25, 25, 27, 0.733),
-          rgba(31, 30, 30, 0.719)
-        );
+    }
+    .content {
+      position: absolute;
+      width: 200px;
+      margin-left: -100px;
+      left: 50%;
+      bottom: 10%;
+      color: #fff;
+      opacity: 1;
+      transition: 1s ease;
+      h6 {
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+        letter-spacing: 0.1em;
+        font-size: 1em;
       }
-      .content {
-        position: absolute;
-        width: 200px;
-        margin-left: -100px;
-        left: 50%;
-        bottom: 10%;
-        color: #fff;
+    }
+    .content_e
+    {
+      opacity: 0;
+      position: absolute;
+      width: 300px;
+      margin-left: -150px;
+      left: 50%;
+      bottom: 50%;
+      color: #fff;
+      transition: 1s ease;
+      p
+      {
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 1em;
+        letter-spacing: 0.05em;
+      }
+      h6
+      {
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+      }
+    }
+    &:hover {
+      img
+      {
+        transform: scale(1.2);
+        transition: 1s ease;
+      }
+      .overlay {
         opacity: 1;
         transition: 1s ease;
-        h6 {
-          text-transform: uppercase;
-          font-weight: $font-weight-bold;
-          letter-spacing: 0.1em;
-          font-size: 1em;
-        }
       }
       .content_e
       {
-        opacity: 0;
-        position: absolute;
-        width: 300px;
-        margin-left: -150px;
-        left: 50%;
-        bottom: 50%;
-        color: #fff;
-        transition: 1s ease;
-        p
-        {
-          font-style: italic;
-          font-weight: lighter;
-          font-size: 1em;
-          letter-spacing: 0.05em;
-        }
-        h6
-        {
-          text-transform: uppercase;
-          font-weight: $font-weight-bold;
-          letter-spacing: 0.1em;
-          font-size: 0.8em;
-        }
+        opacity: 1;
       }
-      &:hover {
-        img
-        {
-          transform: scale(1.2);
-          transition: 1s ease;
-        }
-        .overlay {
-          opacity: 1;
-          transition: 1s ease;
-        }
-        .content_e
-        {
-          opacity: 1;
-        }
-        .content
-        {
-          opacity: 0;
-          transition: 1s ease;
-        }
+      .content
+      {
+        opacity: 0;
+        transition: 1s ease;
       }
     }
   }
+}
 
-  #section-04 {
+#innovation {
+  .s-head {
+    font-weight: $font-weight-semibold;
+    letter-spacing: 0em;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .p-sub {
+    font-size: 0.9em;
+  }
+}
+
+#news-and-events {
 	background: $color-grey;
 	.main-btn {
 		color: $color-black;
@@ -272,7 +284,7 @@
 	}
 }
 
-#section-06 {
+#gallery {
     .main-btn {
       margin-top: 40px;
       padding: 20px 40px;
@@ -367,64 +379,44 @@
     }
   }
 
-  #section-07
-{
-    .head
-    {
+#requests {
+    .head {
         padding-bottom: 30px;
     }
-    .s-head
-    {
+    .s-head {
         font-size: 0.9em;
     }
-    .p-sub
-    {
+    .p-sub {
         padding-top: 15px;
     }
-    .link
-    {
+    .link {
         font-weight: bolder;
     }
-    .main-btn
-    {
-        background: $color-blue;
-        color: #fff;
-        transition: 0.5s ease;
-        border-color: $color-blue;
-        font-size: 0.7em;
-        padding: 20px 30px;
-        &:hover
-        {
-            border-color: #333333;
-            background: #fff;
-            color: #333333;
-        }
+    .main-btn {
+      background: $color-blue;
+      color: #fff;
+      transition: 0.5s ease;
+      border-color: $color-blue;
+      font-size: 0.7em;
+      padding: 20px 30px;
+      &:hover
+      {
+          border-color: #333333;
+          background: #fff;
+          color: #333333;
+      }
     }
-}
+}  
 
-#section-17 {
-    .s-head {
-      font-weight: $font-weight-semibold;
-      letter-spacing: 0em;
-      font-size: 1em;
-      text-transform: uppercase;
-    }
-    .p-sub {
-      font-size: 0.9em;
-    }
-  }
-
-  #section-08
+#organisations {
+  .m-head
   {
-    .m-head
-    {
-      font-size: 2em;   
-      word-wrap: break-word;
-    }
-    @media screen and (max-width: $screen-xs-max) {
-        .m-head {
-          font-size: 1.5em;
-        }
-    }
+    font-size: 2em;   
+    word-wrap: break-word;
   }
-  
+  @media screen and (max-width: $screen-xs-max) {
+      .m-head {
+        font-size: 1.5em;
+      }
+  }
+}
