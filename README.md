@@ -1,4 +1,4 @@
-<p align="center"><a href="http://cea.ac.in" title="ceadoor"><img src="https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/PNG%201080P.png" alt="ceadoor logo" width="300" /></a></p>
+<p align="center"><a href="http://cea.ac.in" title="ceadoor"><img src="https://github.com/ceadoor/cea.ac.in/raw/master/src/assets/Logo%20Redesign/ceadoor-PNG.png" alt="ceadoor logo" width="300" /></a></p>
 
 <h1 align="center">Website for College of Engineering Adoor</h1>
 
