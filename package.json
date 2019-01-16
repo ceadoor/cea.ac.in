@@ -1,6 +1,6 @@
 {
   "name": "cea.ac.in",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,32 +19,32 @@
   "author": "Ashik Meerankutty",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.2.2",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^1.0.0",
+    "css-loader": "^1.0.1",
     "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.4.4",
+    "mini-css-extract-plugin": "^0.4.5",
     "node-glob": "^1.2.0",
-    "node-sass": "^4.9.4",
-    "prettier": "^1.14.3",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.15.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
-    "webpack": "^4.23.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "ajv": "^6.5.4",
+    "ajv": "^6.7.0",
     "animate.css": "^3.7.0",
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^4.2.1",
     "jquery": "^3.3.1",
     "owl.carousel": "^2.3.4",
-    "popper.js": "^1.14.4"
+    "popper.js": "^1.14.6"
   }
 }
