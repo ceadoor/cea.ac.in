@@ -46,7 +46,7 @@ npm install
 ```
 npm start
 ```
-This will provide you with a web interface available at **`http://localhost:8080/`**
+This will provide you with a web interface available at **`http://localhost:3000/`**
 #### 7. Commit, Push, and submit PR
 ```
 git add .

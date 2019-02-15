@@ -1,23 +1,13 @@
 {
   "name": "cea.ac.in",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Website for College of Engineering Adoor",
   "main": "index.js",
   "scripts": {
     "build": "webpack  --mode=production",
     "watch": "webpack --progress --watch  --mode=development",
     "start": "webpack-dev-server --open  --mode=development"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ceadoor/cea.ac.in"
-  },
-  "bugs": {
-    "url": "https://github.com/ceadoor/cea.ac.in/issues"
-  },
-  "keywords": [],
-  "author": "Ashik Meerankutty",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-core": "^6.26.3",
@@ -31,20 +21,30 @@
     "mini-css-extract-plugin": "^0.4.5",
     "node-glob": "^1.2.0",
     "node-sass": "^4.11.0",
-    "prettier": "^1.15.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "prettier": "^1.16.4",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "terser-webpack-plugin": "^1.2.2",
     "url-loader": "^1.1.2",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "ajv": "^6.7.0",
     "animate.css": "^3.7.0",
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.3.1",
     "owl.carousel": "^2.3.4",
-    "popper.js": "^1.14.6"
-  }
+    "popper.js": "^1.14.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceadoor/cea.ac.in"
+  },
+  "bugs": {
+    "url": "https://github.com/ceadoor/cea.ac.in/issues"
+  },
+  "author": "Ashik Meerankutty",
+  "license": "MIT"
 }
