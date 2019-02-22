@@ -37,8 +37,7 @@ module.exports = (env, options) => ({
 					loader: "file-loader",
 					options: {
 						name: "[name].[ext]",
-						outputPath: "./img",
-						publicPath: '../img'						
+						outputPath: "./img",				
 					},
 				}, ],
 			},
@@ -75,7 +74,7 @@ module.exports = (env, options) => ({
 	},
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: "css/[name].[contenthash].css",
+			filename: "css/style.[contenthash].css",
 		}),
 		new CleanWebpackPlugin(["dist"]),
 		...globSync("src/**/*.html").map(fileName => {
@@ -120,6 +119,6 @@ module.exports = (env, options) => ({
 	output: {
 		filename: "[name].js",
 		path: path.resolve(__dirname, "dist"),
-		publicPath: ''
+		publicPath: '/'
 	}
 })
