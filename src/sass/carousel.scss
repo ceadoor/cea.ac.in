@@ -1,29 +1,27 @@
-#maincarousel
-{
+#maincarousel {
     height: 95vh;
     overflow: hidden;
 
-    .carousel-inner
-    {
+    .carousel-inner {
         background: #000;
-        .bg1
-        {
+
+        .bg1 {
             height: 100vh;
             background: url(../assets/bg1.jpeg);
             background-size: cover;
             background-repeat: no-repeat;
             opacity: .5;
         }
-        .bg2
-        {
+
+        .bg2 {
             height: 100vh;
             background: url(../assets/bg2.jpeg);
             background-size: cover;
             background-repeat: no-repeat;
             opacity: .5;
         }
-        .bg3
-        {
+
+        .bg3 {
             height: 100vh;
             background: url(../assets/bg3.jpeg);
             background-size: cover;
@@ -31,53 +29,51 @@
             opacity: .5;
         }
     }
-    
-    .carousel-control-prev
-    {
+
+    .carousel-control-prev {
         width: 30%;
-        cursor :  url("../assets/left-arrow.svg"),pointer;
+        cursor: url("../assets/left-arrow.svg"), pointer;
     }
-    .carousel-control-next
-    {
-        cursor :  url("../assets/right-arrow.svg"),pointer;
+
+    .carousel-control-next {
+        cursor: url("../assets/right-arrow.svg"), pointer;
         width: 30%;
     }
-    .carousel-caption
-    {
+
+    .carousel-caption {
         bottom: 25%;
         left: 10%;
         text-align: left;
-        h3
-        {
+
+        h3 {
             font-size: 5em;
             text-transform: uppercase;
             font-weight: bolder;
             letter-spacing: 0.1em;
         }
-        .carousel-sub
-        {
+
+        .carousel-sub {
             max-width: 500px;
-            p
-            {
+
+            p {
                 font-style: italic;
                 font-weight: lighter;
                 font-size: 1.0em;
                 letter-spacing: 0;
             }
         }
-        @media screen and (max-width: $screen-xs-max)
-        {
-            h3
-            {
+
+        @media screen and (max-width: $screen-xs-max) {
+            h3 {
                 font-size: 2em;
             }
         }
-        @media screen and (max-width: $screen-lg-max)
-        {
+
+        @media screen and (max-width: $screen-lg-max) {
             left: 15%;
         }
-        @media screen and (max-width: $screen-xlg-max) and (min-width:$screen-xlg-min)
-        {
+
+        @media screen and (max-width: $screen-xlg-max) and (min-width:$screen-xlg-min) {
             left: 30%;
         }
     }

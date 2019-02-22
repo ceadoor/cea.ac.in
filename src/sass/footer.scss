@@ -1,22 +1,20 @@
-#footer 
-{
+#footer {
   padding-bottom: 10px;
   background: $color-blue;
-  .head
-  {
-    h2
-    {
+
+  .head {
+    h2 {
       color: #fff;
       font-size: 1.6em;
       letter-spacing: 0.1em;
       font-weight: bold;
     }
   }
-  .link-holder
-  {
+
+  .link-holder {
     padding-top: 40px;
-    a
-    {
+
+    a {
       color: #fff;
       text-decoration: none;
       font-size: 0.7em;
@@ -24,39 +22,44 @@
       font-weight: 600;
       letter-spacing: 0.1em;
     }
-    .main-btn
-    {
+
+    .main-btn {
       margin-top: 20px;
       background: transparent;
-      color: #fff; 
+      color: #fff;
       border: 2px solid #fff;
       width: 100%;
     }
+
     & :hover {
       border-color: #809fb7;
       color: #809fb7;
     }
+
     .branch-holder {
       .content-main {
         padding-bottom: 8px;
       }
+
       & :hover {
         color: #809fb7;
       }
+
       span {
         padding-left: 8px;
         font-size: 13px;
       }
+
       .last {
         padding-bottom: 30px;
       }
     }
   }
-  .qk-links
-  {
+
+  .qk-links {
     padding-top: 140px;
-    a
-    {
+
+    a {
       font-size: 0.8em;
       font-weight: lighter;
       letter-spacing: 0.05em;
@@ -64,30 +67,31 @@
       text-decoration: none;
       padding-right: 10px;
     }
-    .link
-    {
+
+    .link {
       padding-left: 10px;
     }
+
     padding-bottom: 20px;
   }
-  .social
-  {
+
+  .social {
     padding-bottom: 20px;
-    .nav-link
-    {
+
+    .nav-link {
       padding-left: 0;
       padding-right: 40px;
       font-size: 1.5em;
       color: #fff;
     }
   }
-  .copy-text
-  {
+
+  .copy-text {
     padding-top: 60px;
-    h6
-    {
+
+    h6 {
       font-size: 0.9em;
-      color:#fff;
+      color: #fff;
       font-weight: lighter;
       opacity: 0.7;
     }

@@ -1,5 +1,5 @@
 #section-20 {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -7,22 +7,28 @@
     background-color: #f6f6f7;
     height: 100%;
     color: #fff;
-    .content-head h2 {        
+
+    .content-head h2 {
         font-weight: 800;
-        font-size: 3em; 
+        font-size: 3em;
         padding-top: 3em;
     }
+
     .content-item h4 {
         font-style: italic;
         text-align: center;
     }
+
     .breadcrumb {
         padding-top: 220px;
+
         li {
             color: #fff;
+
             a {
                 color: #fff;
             }
+
             & :hover {
                 text-decoration: underline;
             }

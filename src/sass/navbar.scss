@@ -5,9 +5,11 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: $color-blue;
+
 	.nav {
 		.nav-item {
 			padding-top: 0px;
+
 			.nav-link {
 				color: #fff;
 				font-size: 0.7em;
@@ -18,21 +20,27 @@
 		}
 	}
 }
+
 .navbar {
 	transition: 0.5s ease;
 	padding-bottom: 0px !important;
+
 	.nav-container {
 		z-index: 10;
 	}
+
 	.navbar-brand {
 		color: #fff;
 		font-weight: bold;
 	}
+
 	padding-top: 80px;
 	background: transparent;
+
 	.dropdown {
 		position: static !important;
 	}
+
 	.dropdown-menu {
 		transition: max-height 0.5s ease-out;
 		height: auto;
@@ -41,17 +49,21 @@
 		border-radius: 0;
 		border: none;
 		margin: 0;
+
 		.m-head {
 			font-size: 1.4em;
 			padding-bottom: 10px;
 		}
+
 		.element {
 			text-align: right;
 		}
+
 		.dropdown-list {
 			transition: 1s ease;
 			list-style: none;
 			padding-left: 0px;
+
 			.dropdown-item {
 				padding: 5px 0px;
 				color: $color-blue;
@@ -60,15 +72,18 @@
 				font-size: 0.8em;
 				font-weight: 500;
 				line-height: 1.5em;
+
 				&:hover {
 					background: #fff;
 				}
 			}
 		}
 	}
+
 	.navbar-nav {
 		.nav-item {
 			height: 100%;
+
 			.nav-link {
 				text-transform: uppercase;
 				font-size: 0.7em;
@@ -79,9 +94,11 @@
 				padding-bottom: 15px;
 				transition: border-width 0.1s ease;
 				border-bottom: 2px solid transparent;
+
 				&:hover {
 					border-bottom: 2px solid $color-blue;
 				}
+
 				&:focus {
 					border-bottom: 2px solid $color-blue;
 				}
@@ -89,11 +106,14 @@
 		}
 	}
 }
+
 .nav-change {
-	box-shadow:none !important;
+	box-shadow: none !important;
+
 	.navbar-brand {
 		color: #000;
 	}
+
 	.navbar-nav {
 		.nav-item {
 			.nav-link {
@@ -102,15 +122,18 @@
 		}
 	}
 }
+
 .other-navbar {
 	color: #000 !important;
 	margin-top: 0;
 	padding-top: 70px;
 	padding-bottom: 10px;
 	background-color: #fff !important;
+
 	.navbar-brand {
 		color: #000 !important;
 	}
+
 	.other-nav {
 		.nav-link {
 			color: #000 !important;
@@ -121,63 +144,75 @@
 .nav-holder {
 	position: relative;
 }
+
 #navbar-dropdown-hovered {
-  position: fixed;
-  left: 0;
-  top: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
 	background: #fff;
 	width: 100%;
-  z-index: 10;
-  height: 0;
-  overflow: hidden;
-  .dropdown-content{
+	z-index: 10;
+	height: 0;
+	overflow: hidden;
+
+	.dropdown-content {
 		padding-top: 170px;
 		transition: 1s ease;
-  }
-  .dropdown-content {
-    transition: 1s opacity;
-    // opacity: 0;
-  }
-  .dropdown-show {
-    transition: 1s opacity;
-    // opacity: 1;
-  }
-  .m-head {
-    font-size: 1.4em;
-    padding-bottom: 10px;
-  }
-  .element {
-    text-align: right;
-  }
-  .dropdown-list {
-    transition: 1s ease;
-    list-style: none;
-    padding-left: 0px;
-    .dropdown-item {
-      padding: 5px 0px;
-      color: $color-blue;
-      text-transform: none;
-      letter-spacing: 0;
-      font-size: 0.8em;
-      font-weight: 500;
-      line-height: 1.5em;
-      &:hover {
-        background: #fff;
-      }
-    }
-  }
+	}
+
+	.dropdown-content {
+		transition: 1s opacity;
+		// opacity: 0;
+	}
+
+	.dropdown-show {
+		transition: 1s opacity;
+		// opacity: 1;
+	}
+
+	.m-head {
+		font-size: 1.4em;
+		padding-bottom: 10px;
+	}
+
+	.element {
+		text-align: right;
+	}
+
+	.dropdown-list {
+		transition: 1s ease;
+		list-style: none;
+		padding-left: 0px;
+
+		.dropdown-item {
+			padding: 5px 0px;
+			color: $color-blue;
+			text-transform: none;
+			letter-spacing: 0;
+			font-size: 0.8em;
+			font-weight: 500;
+			line-height: 1.5em;
+
+			&:hover {
+				background: #fff;
+			}
+		}
+	}
 }
 
 .shrink {
 	.navbar-brand {
 		color: #000;
 	}
+
 	padding-bottom: 10px !important;
 	background: #fff;
 	transition: 0.5s ease;
 	margin: 0px;
 	padding-top: 20px !important;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+	0 6px 20px 0 rgba(0, 0, 0, 0);
+
 	.navbar-nav {
 		.nav-item {
 			.nav-link {
@@ -188,18 +223,15 @@
 	}
 }
 
-.course-navbar
-{
+.course-navbar {
 	background: transparent;
 	color: #000 !important;
 	padding-top: 40px;
 
 }
 
-.shrink-dropdown
-{
-	.dropdown-content
-	{
+.shrink-dropdown {
+	.dropdown-content {
 		transition: 1s ease;
 		padding-top: 120px !important;
 	}

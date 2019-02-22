@@ -53,6 +53,7 @@ footer {
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
 }
+
 .hvr-icon-forward .hvr-icon {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -63,6 +64,7 @@ footer {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-icon-forward:hover .hvr-icon,
 .hvr-icon-forward:focus .hvr-icon,
 .hvr-icon-forward:active .hvr-icon {
