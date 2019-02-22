@@ -57,7 +57,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
-    nav:false,
+    nav: false,
     dots: true,
     responsive: {
       0: {
@@ -88,48 +88,48 @@ $(document).ready(function () {
   });
 });
 
-$( document ).ready( function() {
-  $('.nav-holder').hover(function(){
-  },
-  function(){
-    // $('#navbar-dropdown-hovered').html("")
-    $('#navbar-dropdown-hovered').animate({height: 0});
-    $('nav').removeClass('nav-change');
-  }
+$(document).ready(function () {
+  $('.nav-holder').hover(function () {},
+    function () {
+      // $('#navbar-dropdown-hovered').html("")
+      $('#navbar-dropdown-hovered').animate({
+        height: 0
+      });
+      $('nav').removeClass('nav-change');
+    }
   )
-  $( '.dropdown' ).on( 'show.bs.dropdown mouseover', function() {
+  $('.dropdown').on('show.bs.dropdown mouseover', function () {
     $('nav').addClass('nav-change');
-    $('#navbar-dropdown-hovered').html($( this ).find('.dropdown-menu').html())
-    $('#navbar-dropdown-hovered').animate({height: $('#navbar-dropdown-hovered').find('.dropdown-content').height() + 180});
-  } );
-  $('.dropdown').on( 'hide.bs.dropdown mouseleave', function(){
-  } );
-} );
+    $('#navbar-dropdown-hovered').html($(this).find('.dropdown-menu').html())
+    $('#navbar-dropdown-hovered').animate({
+      height: $('#navbar-dropdown-hovered').find('.dropdown-content').height() + 180
+    });
+  });
+  $('.dropdown').on('hide.bs.dropdown mouseleave', function () {});
+});
 
 
 var distance = $('.course-navs').offset().top,
-    $window = $(window); 
-$window.scroll(function() {
-    if ( $window.scrollTop() >= distance ) {
-        $('.course-navs').css('background',"#fff");
-    }
-    else
-    {
-      $('.course-navs').css('background',"transparent");
-    }
+  $window = $(window);
+$window.scroll(function () {
+  if ($window.scrollTop() >= distance) {
+    $('.course-navs').css('background', "#fff");
+  } else {
+    $('.course-navs').css('background', "transparent");
+  }
 });
 
 var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
+    if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+    }
   });
 }

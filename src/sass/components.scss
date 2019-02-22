@@ -3,6 +3,7 @@
   font-size: 3.5em;
   text-transform: uppercase;
 }
+
 .m-head {
   font-weight: $font-weight-exbold;
   font-size: 2em;
@@ -10,6 +11,7 @@
   color: $color-black;
   text-transform: uppercase;
 }
+
 .s-head {
   font-weight: $font-weight-bold;
   color: $color-black;
@@ -17,29 +19,35 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
 .p-sub {
   font-size: 0.9em;
   line-height: 25px;
 }
+
 .pb-25 {
   padding-bottom: 25px;
 }
+
 .pb-40 {
   padding-bottom: 40px;
 }
-.pt-100
-{
+
+.pt-100 {
   padding-top: 100px;
 }
+
 .link {
   text-decoration: none;
   color: $color-blue;
   font-weight: $font-weight-semibold;
   font-size: 0.8em;
+
   &:hover {
     text-decoration: none;
   }
 }
+
 .main-btn {
   border-radius: 0;
   border: 1px solid $color-black;
@@ -47,34 +55,42 @@
   font-weight: $font-weight-bold;
   padding: 20px 15px;
   letter-spacing: 0.1em;
+
   &:hover {
     transition-duration: 0.5s;
     background: $color-blue;
   }
 }
+
 .breadcrumb {
   background: transparent;
   padding-left: 0;
+
   li {
     color: $color-black;
+
     a {
       color: $color-blue;
       font-weight: $font-weight-semibold;
       letter-spacing: 0;
+
       &:hover {
         color: $color-blue-lighter;
         text-decoration: none;
       }
-    }    
+    }
   }
 }
+
 .element-d {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #e2e2e2;
 }
+
 .drop-head {
   color: $color-black;
+
   &:hover {
     color: $color-blue;
     text-decoration: none;

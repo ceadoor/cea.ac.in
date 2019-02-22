@@ -2,38 +2,49 @@
     padding-top: 80px;
     padding-bottom: 0;
     background: $color-grey;
+
     .content-holder {
         padding-top: 20px;
+
         .left-data {
             h2 {
                 font-size: 20px;
             }
+
             ul {
                 list-style-type: none;
                 padding-left: 0;
+
                 li {
                     padding-top: 13px;
                 }
+
                 li i {
                     margin-right: 15px;
                 }
             }
         }
+
         .right-data {
             h2 {
                 font-size: 20px;
             }
-            .form-data {       
-                padding: 0 10px 10px 10px;         
+
+            .form-data {
+                padding: 0 10px 10px 10px;
+
                 .data-name {
                     padding: 5px;
                 }
+
                 .data-mail {
                     padding: 5px;
                 }
+
                 .data-message {
                     margin: 10px 0 10px 10px;
                 }
+
                 input {
                     padding: 6px 16px;
                     margin-left: 5px;

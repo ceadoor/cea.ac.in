@@ -2,6 +2,7 @@
 	.head {
 		padding-bottom: 30px;
 	}
+
 	.accordion {
 		color: #000;
 		cursor: pointer;
@@ -14,15 +15,18 @@
 		transition: 0.4s;
 		background: transparent;
 		border-bottom: 1px solid #000;
+
 		&:hover {
 			background-color: transparent;
 		}
+
 		.m-head {
 			float: left;
 		}
+
 		.icon-down {
-            padding-top: 10px;
-            padding-right: 20px;
+			padding-top: 10px;
+			padding-right: 20px;
 			float: right;
 		}
 	}
@@ -35,66 +39,82 @@
 		.head {
 			padding-top: 20px;
 			padding-bottom: 0px;
+
 			.m-head {
 				font-size: 1em;
 				text-decoration: underline;
 			}
 		}
+
 		padding: 10px 0px 20px 0px;
 		background-color: transparent;
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height 0.2s ease-out;
+
 		.course-det-head {
 			padding-top: 30px;
 			padding-bottom: 20px;
 			border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+
 			.c-name {
 				font-size: 0.8em;
 				font-weight: lighter;
 				font-style: italic;
 			}
 		}
+
 		.course-det-sub {
 			padding-top: 30px;
 			padding-bottom: 20px;
 			border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+
 			.s-name {
 				font-size: 0.85em;
 				font-weight: bolder;
 				text-transform: uppercase;
 			}
+
 			.t-name {
 				font-size: 0.85em;
 				font-weight: lighter;
+
 				.fas {
 					color: #333333;
 				}
 			}
 		}
 	}
+
 	.course-details {
 		background: #fff;
 		padding: 30px;
+
 		p {
 			font-size: 0.75em;
 		}
+
 		.head-m {
 			font-style: italic;
 		}
+
 		.sub-m {
 			font-style: italic;
 		}
+
 		.head-s {
 			font-weight: bolder;
 		}
+
 		.head-f {
 			font-weight: bolder;
 		}
+
 		.bb-1 {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.349);
 			margin-bottom: 20px;
 		}
+
 		.bt-1 {
 			padding-top: 20px;
 			border-top: 1px solid rgba(0, 0, 0, 0.349);

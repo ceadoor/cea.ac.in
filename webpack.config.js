@@ -1,11 +1,11 @@
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-const MiniCssExtractPlugin = require("mini-css-extract-plugin")
-const CleanWebpackPlugin = require("clean-webpack-plugin")
-const HtmlWebpackPlugin = require("html-webpack-plugin")
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
-const globSync = require("glob").sync
-const webpack = require("webpack")
-const path = require("path")
+const globSync = require('glob').sync
+const webpack = require('webpack')
+const path = require('path')
 
 module.exports = (env, options) => ({
 	entry: ["./src/index.js"],
@@ -21,40 +21,36 @@ module.exports = (env, options) => ({
 		fs: 'empty'
 	},
 	module: {
-		rules: [
-			{
+		rules: [{
 				test: /\.(scss|css)$/,
 				use: [
-                    options.mode !== 'production'
-                        ? 'style-loader'
-						: MiniCssExtractPlugin.loader,
-					"css-loader",						
+					options.mode !== 'production' ?
+					'style-loader' :
+					MiniCssExtractPlugin.loader,
+					"css-loader",
 					"sass-loader",
 				],
 			},
 			{
 				test: /\.(png|jpg|gif|jpeg)$/,
-				use: [
-					{
-						loader: "file-loader",
-						options: {
-							name: "[name].[ext]",
-							outputPath: "./img/",
-						},
+				use: [{
+					loader: "file-loader",
+					options: {
+						name: "[name].[ext]",
+						outputPath: "./img",
+						publicPath: '../img'						
 					},
-				],
+				}, ],
 			},
 			{
 				test: /\.(svg)$/,
-				use: [
-					{
-						loader: "url-loader",
-						options: {
-							name: "[name].[ext]",
-							outputPath: "./img/",
-						},
+				use: [{
+					loader: "url-loader",
+					options: {
+						name: "[name].[ext]",
+						outputPath: "./img/",
 					},
-				],
+				}, ],
 			},
 			{
 				test: /\.(html)$/,
@@ -98,31 +94,32 @@ module.exports = (env, options) => ({
 			Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown",
 		}),
 	],
-    optimization: {
-        minimizer: [
-            new OptimizeCssAssetsPlugin({
-                assetNameRegExp: /\.css$/g,
-                cssProcessor: require('cssnano'),
-                cssProcessorOptions: {
-                    map: false
-                },
-                cssProcessorPluginOptions: {
-                    preset: ['default', { discardComments: { removeAll: true } }],
-                },
-                canPrint: true
-            }),
-            new TerserPlugin({
-                cache: true,
-                parallel: true
-            })
-        ]
-    },
+	optimization: {
+		minimizer: [
+			new OptimizeCssAssetsPlugin({
+				assetNameRegExp: /\.css$/g,
+				cssProcessor: require('cssnano'),
+				cssProcessorOptions: {
+					map: false
+				},
+				cssProcessorPluginOptions: {
+					preset: ['default', {
+						discardComments: {
+							removeAll: true
+						}
+					}],
+				},
+				canPrint: true
+			}),
+			new TerserPlugin({
+				cache: true,
+				parallel: true
+			})
+		]
+	},
 	output: {
 		filename: "[name].js",
 		path: path.resolve(__dirname, "dist"),
-		publicPath:
-			options.mode === "production"
-				? "https://ceadoor.github.io/cea.ac.in/"
-				: "http://localhost:3000/",
-	},
+		publicPath: ''
+	}
 })

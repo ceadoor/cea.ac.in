@@ -1,6 +1,7 @@
-.student_carousel
-{
-	.owl-next, .owl-prev{
+.student_carousel {
+
+	.owl-next,
+	.owl-prev {
 		width: 100px;
 		height: 100px;
 		line-height: 40px;
@@ -11,26 +12,29 @@
 		margin-top: -50px;
 		top: 50%;
 		transition: 0.35s;
-		&:hover{
+
+		&:hover {
 			color: #000 !important;
 		}
-		&:focus
-		{
+
+		&:focus {
 			outline: none;
 		}
 	}
 
-	.owl-prev{
+	.owl-prev {
 		left: 20px;
 	}
 
-	.owl-next{
+	.owl-next {
 		right: 20px;
 	}
 }
-.news_carousel
-{
-	.owl-next, .owl-prev{
+
+.news_carousel {
+
+	.owl-next,
+	.owl-prev {
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
@@ -41,26 +45,29 @@
 		margin-top: -50px;
 		top: 50%;
 		transition: 0.35s;
-		&:hover{
+
+		&:hover {
 			color: #000 !important;
 		}
-		&:focus
-		{
+
+		&:focus {
 			outline: none;
 		}
 	}
 
-	.owl-prev{
+	.owl-prev {
 		left: 20px;
 	}
 
-	.owl-next{
+	.owl-next {
 		right: 20px;
 	}
 }
-.organisation_carousel
-{
-	.owl-next, .owl-prev{
+
+.organisation_carousel {
+
+	.owl-next,
+	.owl-prev {
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
@@ -71,20 +78,21 @@
 		margin-top: -50px;
 		top: 50%;
 		transition: 0.35s;
-		&:hover{
+
+		&:hover {
 			color: #000 !important;
 		}
-		&:focus
-		{
+
+		&:focus {
 			outline: none;
 		}
 	}
 
-	.owl-prev{
+	.owl-prev {
 		left: 20px;
 	}
 
-	.owl-next{
+	.owl-next {
 		right: 20px;
 	}
 }
