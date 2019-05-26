@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "Website for College of Engineering Adoor",
   "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": ">= 8 <11"
+  },
   "scripts": {
     "build": "webpack  --mode=production",
     "watch": "webpack --progress --watch  --mode=development",
