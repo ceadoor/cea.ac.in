@@ -13,9 +13,9 @@
     "start": "webpack-dev-server --open  --mode=development"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
+    "@babel/core": "^7.4.5",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
@@ -24,23 +24,23 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.5",
     "node-glob": "^1.2.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "prettier": "^1.16.4",
+    "prettier": "^1.17.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "terser-webpack-plugin": "^1.2.2",
+    "terser-webpack-plugin": "^1.3.0",
     "url-loader": "^1.1.2",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.2.0"
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "animate.css": "^3.7.0",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "owl.carousel": "^2.3.4",
-    "popper.js": "^1.14.7"
+    "popper.js": "^1.15.0"
   },
   "repository": {
     "type": "git",
