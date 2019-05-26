@@ -1,16 +1,16 @@
 language: node_js
-cache:
-  directories:
-    - ~/.npm
 node_js:
-  - stable
+    - "lts/*"
+cache:
+    directories:
+        - ~/.npm
 notifications:
-  email:
-    recipients:
-      - ashik9591@gmail.com
-    on_success: always
-    on_failure: always
+    email:
+        recipients:
+            - ashik9591@gmail.com
+        on_success: always
+        on_failure: always
 git:
-  depth: 3
+    depth: 3
 script:
-  - npm run build
+    - npm run build
